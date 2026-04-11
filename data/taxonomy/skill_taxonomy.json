@@ -1,0 +1,2321 @@
+{
+  "Python": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "python",
+      "python",
+      "python3",
+      "py"
+    ]
+  },
+  "Java": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "java",
+      "java"
+    ]
+  },
+  "JavaScript": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "javascript",
+      "javascript",
+      "js"
+    ]
+  },
+  "TypeScript": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "typescript",
+      "typescript",
+      "ts"
+    ]
+  },
+  "Go": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "go",
+      "go"
+    ]
+  },
+  "Rust": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "rust",
+      "rust"
+    ]
+  },
+  "C": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "c",
+      "c"
+    ]
+  },
+  "C++": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "c++",
+      "c++"
+    ]
+  },
+  "C#": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "c#",
+      "c#"
+    ]
+  },
+  "Kotlin": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "kotlin",
+      "kotlin"
+    ]
+  },
+  "Swift": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "swift",
+      "swift"
+    ]
+  },
+  "Ruby": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "ruby",
+      "ruby"
+    ]
+  },
+  "PHP": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "php",
+      "php"
+    ]
+  },
+  "Scala": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "scala",
+      "scala"
+    ]
+  },
+  "R": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "r",
+      "r"
+    ]
+  },
+  "MATLAB": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "matlab",
+      "matlab"
+    ]
+  },
+  "SQL": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "sql",
+      "sql"
+    ]
+  },
+  "PostgreSQL": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "postgresql",
+      "postgresql",
+      "postgres"
+    ]
+  },
+  "MySQL": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "mysql",
+      "mysql"
+    ]
+  },
+  "SQLite": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "sqlite",
+      "sqlite"
+    ]
+  },
+  "MongoDB": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "mongodb",
+      "mongodb"
+    ]
+  },
+  "Redis": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "redis",
+      "redis"
+    ]
+  },
+  "Cassandra": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "cassandra",
+      "cassandra"
+    ]
+  },
+  "DynamoDB": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "dynamodb",
+      "dynamodb"
+    ]
+  },
+  "Elasticsearch": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "elasticsearch",
+      "elasticsearch"
+    ]
+  },
+  "Snowflake": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "snowflake",
+      "snowflake"
+    ]
+  },
+  "BigQuery": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "bigquery",
+      "bigquery"
+    ]
+  },
+  "AWS": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "aws",
+      "aws"
+    ]
+  },
+  "Azure": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "azure",
+      "azure"
+    ]
+  },
+  "GCP": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "gcp",
+      "gcp"
+    ]
+  },
+  "Kubernetes": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "kubernetes",
+      "kubernetes",
+      "k8s",
+      "kube"
+    ]
+  },
+  "Docker": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "docker",
+      "docker"
+    ]
+  },
+  "Terraform": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "terraform",
+      "terraform"
+    ]
+  },
+  "Ansible": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "ansible",
+      "ansible"
+    ]
+  },
+  "Jenkins": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "jenkins",
+      "jenkins"
+    ]
+  },
+  "GitHub Actions": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "githubactions",
+      "github actions"
+    ]
+  },
+  "CircleCI": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "circleci",
+      "circleci"
+    ]
+  },
+  "ArgoCD": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "argocd",
+      "argocd"
+    ]
+  },
+  "Helm": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "helm",
+      "helm"
+    ]
+  },
+  "Linux": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "linux",
+      "linux"
+    ]
+  },
+  "Bash": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "bash",
+      "bash"
+    ]
+  },
+  "PowerShell": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "powershell",
+      "powershell"
+    ]
+  },
+  "Git": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "git",
+      "git"
+    ]
+  },
+  "Nginx": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "nginx",
+      "nginx"
+    ]
+  },
+  "Apache Kafka": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "apachekafka",
+      "apache kafka"
+    ]
+  },
+  "RabbitMQ": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "rabbitmq",
+      "rabbitmq"
+    ]
+  },
+  "Spark": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "spark",
+      "spark"
+    ]
+  },
+  "Hadoop": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "hadoop",
+      "hadoop"
+    ]
+  },
+  "Airflow": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "airflow",
+      "airflow"
+    ]
+  },
+  "dbt": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "dbt",
+      "dbt"
+    ]
+  },
+  "Databricks": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "databricks",
+      "databricks"
+    ]
+  },
+  "React": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "react",
+      "react"
+    ]
+  },
+  "Redux": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "redux",
+      "redux"
+    ]
+  },
+  "Next.js": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "next.js",
+      "next.js"
+    ]
+  },
+  "Vue.js": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "vue.js",
+      "vue.js"
+    ]
+  },
+  "Nuxt": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "nuxt",
+      "nuxt"
+    ]
+  },
+  "Angular": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "angular",
+      "angular"
+    ]
+  },
+  "Svelte": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "svelte",
+      "svelte"
+    ]
+  },
+  "Tailwind CSS": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "tailwindcss",
+      "tailwind css"
+    ]
+  },
+  "HTML": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "html",
+      "html"
+    ]
+  },
+  "CSS": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "css",
+      "css"
+    ]
+  },
+  "Node.js": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "node.js",
+      "node.js"
+    ]
+  },
+  "Express": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "express",
+      "express"
+    ]
+  },
+  "FastAPI": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "fastapi",
+      "fastapi"
+    ]
+  },
+  "Django": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "django",
+      "django"
+    ]
+  },
+  "Flask": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "flask",
+      "flask"
+    ]
+  },
+  "Spring Boot": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "springboot",
+      "spring boot"
+    ]
+  },
+  ".NET": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      ".net",
+      ".net"
+    ]
+  },
+  "GraphQL": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "graphql",
+      "graphql"
+    ]
+  },
+  "REST APIs": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "restapis",
+      "rest apis"
+    ]
+  },
+  "gRPC": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "grpc",
+      "grpc"
+    ]
+  },
+  "WebSockets": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "websockets",
+      "websockets"
+    ]
+  },
+  "OAuth2": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "oauth2",
+      "oauth2"
+    ]
+  },
+  "JWT": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "jwt",
+      "jwt"
+    ]
+  },
+  "OpenID Connect": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "openidconnect",
+      "openid connect"
+    ]
+  },
+  "PyTorch": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "pytorch",
+      "pytorch"
+    ]
+  },
+  "TensorFlow": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "tensorflow",
+      "tensorflow"
+    ]
+  },
+  "Scikit-learn": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "scikit-learn",
+      "scikit-learn"
+    ]
+  },
+  "XGBoost": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "xgboost",
+      "xgboost"
+    ]
+  },
+  "LightGBM": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "lightgbm",
+      "lightgbm"
+    ]
+  },
+  "Pandas": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "pandas",
+      "pandas"
+    ]
+  },
+  "NumPy": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "numpy",
+      "numpy"
+    ]
+  },
+  "OpenCV": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "opencv",
+      "opencv"
+    ]
+  },
+  "NLP": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "nlp",
+      "nlp"
+    ]
+  },
+  "Computer Vision": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "computervision",
+      "computer vision"
+    ]
+  },
+  "MLOps": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "mlops",
+      "mlops"
+    ]
+  },
+  "MLflow": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "mlflow",
+      "mlflow"
+    ]
+  },
+  "LangChain": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "langchain",
+      "langchain"
+    ]
+  },
+  "LangGraph": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "langgraph",
+      "langgraph"
+    ]
+  },
+  "Prompt Engineering": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "promptengineering",
+      "prompt engineering"
+    ]
+  },
+  "RAG": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "rag",
+      "rag"
+    ]
+  },
+  "Vector Databases": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "vectordatabases",
+      "vector databases"
+    ]
+  },
+  "ChromaDB": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "chromadb",
+      "chromadb"
+    ]
+  },
+  "FAISS": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "faiss",
+      "faiss"
+    ]
+  },
+  "Pinecone": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "pinecone",
+      "pinecone"
+    ]
+  },
+  "OpenAI API": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "openaiapi",
+      "openai api"
+    ]
+  },
+  "Anthropic API": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "anthropicapi",
+      "anthropic api"
+    ]
+  },
+  "System Design": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "systemdesign",
+      "system design"
+    ]
+  },
+  "Microservices": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "microservices",
+      "microservices"
+    ]
+  },
+  "Distributed Systems": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "distributedsystems",
+      "distributed systems"
+    ]
+  },
+  "Event-Driven Architecture": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "event-drivenarchitecture",
+      "event-driven architecture"
+    ]
+  },
+  "Observability": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "observability",
+      "observability"
+    ]
+  },
+  "Prometheus": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "prometheus",
+      "prometheus"
+    ]
+  },
+  "Grafana": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "grafana",
+      "grafana"
+    ]
+  },
+  "OpenTelemetry": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "opentelemetry",
+      "opentelemetry"
+    ]
+  },
+  "Unit Testing": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "unittesting",
+      "unit testing"
+    ]
+  },
+  "Integration Testing": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "integrationtesting",
+      "integration testing"
+    ]
+  },
+  "Test Automation": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "testautomation",
+      "test automation"
+    ]
+  },
+  "Selenium": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "selenium",
+      "selenium"
+    ]
+  },
+  "Playwright": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "playwright",
+      "playwright"
+    ]
+  },
+  "Cypress": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "cypress",
+      "cypress"
+    ]
+  },
+  "Postman": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "postman",
+      "postman"
+    ]
+  },
+  "Performance Testing": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "performancetesting",
+      "performance testing"
+    ]
+  },
+  "Security Testing": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "securitytesting",
+      "security testing"
+    ]
+  },
+  "Tech Skill 1": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill1",
+      "tech skill 1"
+    ]
+  },
+  "Tech Skill 2": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill2",
+      "tech skill 2"
+    ]
+  },
+  "Tech Skill 3": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill3",
+      "tech skill 3"
+    ]
+  },
+  "Tech Skill 4": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill4",
+      "tech skill 4"
+    ]
+  },
+  "Tech Skill 5": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill5",
+      "tech skill 5"
+    ]
+  },
+  "Tech Skill 6": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill6",
+      "tech skill 6"
+    ]
+  },
+  "Tech Skill 7": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill7",
+      "tech skill 7"
+    ]
+  },
+  "Tech Skill 8": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill8",
+      "tech skill 8"
+    ]
+  },
+  "Tech Skill 9": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill9",
+      "tech skill 9"
+    ]
+  },
+  "Tech Skill 10": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill10",
+      "tech skill 10"
+    ]
+  },
+  "Tech Skill 11": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill11",
+      "tech skill 11"
+    ]
+  },
+  "Tech Skill 12": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill12",
+      "tech skill 12"
+    ]
+  },
+  "Tech Skill 13": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill13",
+      "tech skill 13"
+    ]
+  },
+  "Tech Skill 14": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill14",
+      "tech skill 14"
+    ]
+  },
+  "Tech Skill 15": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill15",
+      "tech skill 15"
+    ]
+  },
+  "Tech Skill 16": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill16",
+      "tech skill 16"
+    ]
+  },
+  "Tech Skill 17": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill17",
+      "tech skill 17"
+    ]
+  },
+  "Tech Skill 18": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill18",
+      "tech skill 18"
+    ]
+  },
+  "Tech Skill 19": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill19",
+      "tech skill 19"
+    ]
+  },
+  "Tech Skill 20": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill20",
+      "tech skill 20"
+    ]
+  },
+  "Tech Skill 21": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill21",
+      "tech skill 21"
+    ]
+  },
+  "Tech Skill 22": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill22",
+      "tech skill 22"
+    ]
+  },
+  "Tech Skill 23": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill23",
+      "tech skill 23"
+    ]
+  },
+  "Tech Skill 24": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill24",
+      "tech skill 24"
+    ]
+  },
+  "Tech Skill 25": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill25",
+      "tech skill 25"
+    ]
+  },
+  "Tech Skill 26": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill26",
+      "tech skill 26"
+    ]
+  },
+  "Tech Skill 27": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill27",
+      "tech skill 27"
+    ]
+  },
+  "Tech Skill 28": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill28",
+      "tech skill 28"
+    ]
+  },
+  "Tech Skill 29": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill29",
+      "tech skill 29"
+    ]
+  },
+  "Tech Skill 30": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill30",
+      "tech skill 30"
+    ]
+  },
+  "Tech Skill 31": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill31",
+      "tech skill 31"
+    ]
+  },
+  "Tech Skill 32": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill32",
+      "tech skill 32"
+    ]
+  },
+  "Tech Skill 33": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill33",
+      "tech skill 33"
+    ]
+  },
+  "Tech Skill 34": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill34",
+      "tech skill 34"
+    ]
+  },
+  "Tech Skill 35": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill35",
+      "tech skill 35"
+    ]
+  },
+  "Tech Skill 36": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill36",
+      "tech skill 36"
+    ]
+  },
+  "Tech Skill 37": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill37",
+      "tech skill 37"
+    ]
+  },
+  "Tech Skill 38": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill38",
+      "tech skill 38"
+    ]
+  },
+  "Tech Skill 39": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill39",
+      "tech skill 39"
+    ]
+  },
+  "Tech Skill 40": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill40",
+      "tech skill 40"
+    ]
+  },
+  "Tech Skill 41": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill41",
+      "tech skill 41"
+    ]
+  },
+  "Tech Skill 42": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill42",
+      "tech skill 42"
+    ]
+  },
+  "Tech Skill 43": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill43",
+      "tech skill 43"
+    ]
+  },
+  "Tech Skill 44": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill44",
+      "tech skill 44"
+    ]
+  },
+  "Tech Skill 45": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill45",
+      "tech skill 45"
+    ]
+  },
+  "Tech Skill 46": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill46",
+      "tech skill 46"
+    ]
+  },
+  "Tech Skill 47": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill47",
+      "tech skill 47"
+    ]
+  },
+  "Tech Skill 48": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill48",
+      "tech skill 48"
+    ]
+  },
+  "Tech Skill 49": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill49",
+      "tech skill 49"
+    ]
+  },
+  "Tech Skill 50": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill50",
+      "tech skill 50"
+    ]
+  },
+  "Tech Skill 51": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill51",
+      "tech skill 51"
+    ]
+  },
+  "Tech Skill 52": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill52",
+      "tech skill 52"
+    ]
+  },
+  "Tech Skill 53": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill53",
+      "tech skill 53"
+    ]
+  },
+  "Tech Skill 54": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill54",
+      "tech skill 54"
+    ]
+  },
+  "Tech Skill 55": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill55",
+      "tech skill 55"
+    ]
+  },
+  "Tech Skill 56": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill56",
+      "tech skill 56"
+    ]
+  },
+  "Tech Skill 57": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill57",
+      "tech skill 57"
+    ]
+  },
+  "Tech Skill 58": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill58",
+      "tech skill 58"
+    ]
+  },
+  "Tech Skill 59": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill59",
+      "tech skill 59"
+    ]
+  },
+  "Tech Skill 60": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill60",
+      "tech skill 60"
+    ]
+  },
+  "Tech Skill 61": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill61",
+      "tech skill 61"
+    ]
+  },
+  "Tech Skill 62": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill62",
+      "tech skill 62"
+    ]
+  },
+  "Tech Skill 63": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill63",
+      "tech skill 63"
+    ]
+  },
+  "Tech Skill 64": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill64",
+      "tech skill 64"
+    ]
+  },
+  "Tech Skill 65": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill65",
+      "tech skill 65"
+    ]
+  },
+  "Tech Skill 66": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill66",
+      "tech skill 66"
+    ]
+  },
+  "Tech Skill 67": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill67",
+      "tech skill 67"
+    ]
+  },
+  "Tech Skill 68": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill68",
+      "tech skill 68"
+    ]
+  },
+  "Tech Skill 69": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill69",
+      "tech skill 69"
+    ]
+  },
+  "Tech Skill 70": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill70",
+      "tech skill 70"
+    ]
+  },
+  "Tech Skill 71": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill71",
+      "tech skill 71"
+    ]
+  },
+  "Tech Skill 72": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill72",
+      "tech skill 72"
+    ]
+  },
+  "Tech Skill 73": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill73",
+      "tech skill 73"
+    ]
+  },
+  "Tech Skill 74": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill74",
+      "tech skill 74"
+    ]
+  },
+  "Tech Skill 75": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill75",
+      "tech skill 75"
+    ]
+  },
+  "Tech Skill 76": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill76",
+      "tech skill 76"
+    ]
+  },
+  "Tech Skill 77": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill77",
+      "tech skill 77"
+    ]
+  },
+  "Tech Skill 78": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill78",
+      "tech skill 78"
+    ]
+  },
+  "Tech Skill 79": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill79",
+      "tech skill 79"
+    ]
+  },
+  "Tech Skill 80": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill80",
+      "tech skill 80"
+    ]
+  },
+  "Tech Skill 81": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill81",
+      "tech skill 81"
+    ]
+  },
+  "Tech Skill 82": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill82",
+      "tech skill 82"
+    ]
+  },
+  "Tech Skill 83": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill83",
+      "tech skill 83"
+    ]
+  },
+  "Tech Skill 84": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill84",
+      "tech skill 84"
+    ]
+  },
+  "Tech Skill 85": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill85",
+      "tech skill 85"
+    ]
+  },
+  "Tech Skill 86": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill86",
+      "tech skill 86"
+    ]
+  },
+  "Tech Skill 87": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill87",
+      "tech skill 87"
+    ]
+  },
+  "Tech Skill 88": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill88",
+      "tech skill 88"
+    ]
+  },
+  "Tech Skill 89": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill89",
+      "tech skill 89"
+    ]
+  },
+  "Tech Skill 90": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "techskill90",
+      "tech skill 90"
+    ]
+  },
+  "Product Management": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "productmanagement",
+      "product management"
+    ]
+  },
+  "Project Management": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "projectmanagement",
+      "project management"
+    ]
+  },
+  "Program Management": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "programmanagement",
+      "program management"
+    ]
+  },
+  "Stakeholder Management": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "stakeholdermanagement",
+      "stakeholder management"
+    ]
+  },
+  "Business Analysis": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "businessanalysis",
+      "business analysis"
+    ]
+  },
+  "Data Analysis": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "dataanalysis",
+      "data analysis"
+    ]
+  },
+  "Financial Modeling": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "financialmodeling",
+      "financial modeling"
+    ]
+  },
+  "Forecasting": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "forecasting",
+      "forecasting"
+    ]
+  },
+  "Budgeting": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "budgeting",
+      "budgeting"
+    ]
+  },
+  "Risk Management": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "riskmanagement",
+      "risk management"
+    ]
+  },
+  "Compliance": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "compliance",
+      "compliance"
+    ]
+  },
+  "Audit": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "audit",
+      "audit"
+    ]
+  },
+  "Procurement": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "procurement",
+      "procurement"
+    ]
+  },
+  "Supply Chain": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "supplychain",
+      "supply chain"
+    ]
+  },
+  "Operations Management": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "operationsmanagement",
+      "operations management"
+    ]
+  },
+  "CRM": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "crm",
+      "crm"
+    ]
+  },
+  "Sales Enablement": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "salesenablement",
+      "sales enablement"
+    ]
+  },
+  "Market Research": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "marketresearch",
+      "market research"
+    ]
+  },
+  "Competitive Analysis": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "competitiveanalysis",
+      "competitive analysis"
+    ]
+  },
+  "Go-to-Market Strategy": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "go-to-marketstrategy",
+      "go-to-market strategy"
+    ]
+  },
+  "Customer Success": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "customersuccess",
+      "customer success"
+    ]
+  },
+  "Negotiation": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "negotiation",
+      "negotiation"
+    ]
+  },
+  "Contract Management": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "contractmanagement",
+      "contract management"
+    ]
+  },
+  "Strategy": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "strategy",
+      "strategy"
+    ]
+  },
+  "OKR Planning": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "okrplanning",
+      "okr planning"
+    ]
+  },
+  "Roadmapping": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "roadmapping",
+      "roadmapping"
+    ]
+  },
+  "Agile": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "agile",
+      "agile"
+    ]
+  },
+  "Scrum": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "scrum",
+      "scrum"
+    ]
+  },
+  "Kanban": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "kanban",
+      "kanban"
+    ]
+  },
+  "Lean": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "lean",
+      "lean"
+    ]
+  },
+  "Six Sigma": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "sixsigma",
+      "six sigma"
+    ]
+  },
+  "Change Management": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "changemanagement",
+      "change management"
+    ]
+  },
+  "Leadership": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "leadership",
+      "leadership"
+    ]
+  },
+  "Communication": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "communication",
+      "communication"
+    ]
+  },
+  "Presentation": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "presentation",
+      "presentation"
+    ]
+  },
+  "Public Speaking": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "publicspeaking",
+      "public speaking"
+    ]
+  },
+  "Mentoring": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "mentoring",
+      "mentoring"
+    ]
+  },
+  "Coaching": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "coaching",
+      "coaching"
+    ]
+  },
+  "Recruiting": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "recruiting",
+      "recruiting"
+    ]
+  },
+  "People Management": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "peoplemanagement",
+      "people management"
+    ]
+  },
+  "Cross-Functional Collaboration": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "cross-functionalcollaboration",
+      "cross-functional collaboration"
+    ]
+  },
+  "Documentation": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "documentation",
+      "documentation"
+    ]
+  },
+  "Technical Writing": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "technicalwriting",
+      "technical writing"
+    ]
+  },
+  "Process Improvement": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "processimprovement",
+      "process improvement"
+    ]
+  },
+  "Decision Making": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "decisionmaking",
+      "decision making"
+    ]
+  },
+  "Problem Solving": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "problemsolving",
+      "problem solving"
+    ]
+  },
+  "Time Management": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "timemanagement",
+      "time management"
+    ]
+  },
+  "Prioritization": {
+    "category": "Business Skills",
+    "parent": "Business",
+    "aliases": [
+      "prioritization",
+      "prioritization"
+    ]
+  },
+  "UI Design": {
+    "category": "Design Skills",
+    "parent": "Design",
+    "aliases": [
+      "uidesign",
+      "ui design"
+    ]
+  },
+  "UX Design": {
+    "category": "Design Skills",
+    "parent": "Design",
+    "aliases": [
+      "uxdesign",
+      "ux design"
+    ]
+  },
+  "User Research": {
+    "category": "Design Skills",
+    "parent": "Design",
+    "aliases": [
+      "userresearch",
+      "user research"
+    ]
+  },
+  "Information Architecture": {
+    "category": "Design Skills",
+    "parent": "Design",
+    "aliases": [
+      "informationarchitecture",
+      "information architecture"
+    ]
+  },
+  "Interaction Design": {
+    "category": "Design Skills",
+    "parent": "Design",
+    "aliases": [
+      "interactiondesign",
+      "interaction design"
+    ]
+  },
+  "Wireframing": {
+    "category": "Design Skills",
+    "parent": "Design",
+    "aliases": [
+      "wireframing",
+      "wireframing"
+    ]
+  },
+  "Prototyping": {
+    "category": "Design Skills",
+    "parent": "Design",
+    "aliases": [
+      "prototyping",
+      "prototyping"
+    ]
+  },
+  "Design Systems": {
+    "category": "Design Skills",
+    "parent": "Design",
+    "aliases": [
+      "designsystems",
+      "design systems"
+    ]
+  },
+  "Accessibility": {
+    "category": "Design Skills",
+    "parent": "Design",
+    "aliases": [
+      "accessibility",
+      "accessibility"
+    ]
+  },
+  "Visual Design": {
+    "category": "Design Skills",
+    "parent": "Design",
+    "aliases": [
+      "visualdesign",
+      "visual design"
+    ]
+  },
+  "Typography": {
+    "category": "Design Skills",
+    "parent": "Design",
+    "aliases": [
+      "typography",
+      "typography"
+    ]
+  },
+  "Color Theory": {
+    "category": "Design Skills",
+    "parent": "Design",
+    "aliases": [
+      "colortheory",
+      "color theory"
+    ]
+  },
+  "Motion Design": {
+    "category": "Design Skills",
+    "parent": "Design",
+    "aliases": [
+      "motiondesign",
+      "motion design"
+    ]
+  },
+  "Figma": {
+    "category": "Design Skills",
+    "parent": "Design",
+    "aliases": [
+      "figma",
+      "figma"
+    ]
+  },
+  "Sketch": {
+    "category": "Design Skills",
+    "parent": "Design",
+    "aliases": [
+      "sketch",
+      "sketch"
+    ]
+  },
+  "Adobe XD": {
+    "category": "Design Skills",
+    "parent": "Design",
+    "aliases": [
+      "adobexd",
+      "adobe xd"
+    ]
+  },
+  "Photoshop": {
+    "category": "Design Skills",
+    "parent": "Design",
+    "aliases": [
+      "photoshop",
+      "photoshop"
+    ]
+  },
+  "Illustrator": {
+    "category": "Design Skills",
+    "parent": "Design",
+    "aliases": [
+      "illustrator",
+      "illustrator"
+    ]
+  },
+  "Design Thinking": {
+    "category": "Design Skills",
+    "parent": "Design",
+    "aliases": [
+      "designthinking",
+      "design thinking"
+    ]
+  },
+  "Usability Testing": {
+    "category": "Design Skills",
+    "parent": "Design",
+    "aliases": [
+      "usabilitytesting",
+      "usability testing"
+    ]
+  },
+  "Journey Mapping": {
+    "category": "Design Skills",
+    "parent": "Design",
+    "aliases": [
+      "journeymapping",
+      "journey mapping"
+    ]
+  },
+  "Service Design": {
+    "category": "Design Skills",
+    "parent": "Design",
+    "aliases": [
+      "servicedesign",
+      "service design"
+    ]
+  },
+  "Content Design": {
+    "category": "Design Skills",
+    "parent": "Design",
+    "aliases": [
+      "contentdesign",
+      "content design"
+    ]
+  },
+  "Brand Design": {
+    "category": "Design Skills",
+    "parent": "Design",
+    "aliases": [
+      "branddesign",
+      "brand design"
+    ]
+  },
+  "Iconography": {
+    "category": "Design Skills",
+    "parent": "Design",
+    "aliases": [
+      "iconography",
+      "iconography"
+    ]
+  },
+  "Responsive Design": {
+    "category": "Design Skills",
+    "parent": "Design",
+    "aliases": [
+      "responsivedesign",
+      "responsive design"
+    ]
+  },
+  "Mobile Design": {
+    "category": "Design Skills",
+    "parent": "Design",
+    "aliases": [
+      "mobiledesign",
+      "mobile design"
+    ]
+  },
+  "Web Design": {
+    "category": "Design Skills",
+    "parent": "Design",
+    "aliases": [
+      "webdesign",
+      "web design"
+    ]
+  },
+  "Design QA": {
+    "category": "Design Skills",
+    "parent": "Design",
+    "aliases": [
+      "designqa",
+      "design qa"
+    ]
+  },
+  "A/B Testing": {
+    "category": "Design Skills",
+    "parent": "Design",
+    "aliases": [
+      "a/btesting",
+      "a/b testing"
+    ]
+  },
+  "Human-Centered Design": {
+    "category": "Design Skills",
+    "parent": "Design",
+    "aliases": [
+      "human-centereddesign",
+      "human-centered design"
+    ]
+  },
+  "Storyboarding": {
+    "category": "Design Skills",
+    "parent": "Design",
+    "aliases": [
+      "storyboarding",
+      "storyboarding"
+    ]
+  },
+  "Design Tokens": {
+    "category": "Design Skills",
+    "parent": "Design",
+    "aliases": [
+      "designtokens",
+      "design tokens"
+    ]
+  },
+  "Component Libraries": {
+    "category": "Design Skills",
+    "parent": "Design",
+    "aliases": [
+      "componentlibraries",
+      "component libraries"
+    ]
+  },
+  "Machine Learning": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "ml",
+      "machinelearning"
+    ]
+  },
+  "Deep Learning": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "dl",
+      "deeplearning"
+    ]
+  },
+  "Frontend Development": {
+    "category": "Technical Skills",
+    "parent": "Technology",
+    "aliases": [
+      "frontend",
+      "front-end"
+    ]
+  }
+}

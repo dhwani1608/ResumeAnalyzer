@@ -1,0 +1,1212 @@
+{
+  "resumes": {
+    "b59b677c-df66-4a23-88ce-fcf9d169c065": {
+      "resume_id": "b59b677c-df66-4a23-88ce-fcf9d169c065",
+      "filename": "resume.txt",
+      "is_master": true,
+      "parent_id": null,
+      "processing_status": "ready",
+      "created_at": "2026-04-11T14:53:30.436756+00:00",
+      "updated_at": "2026-04-11T14:53:30.436774+00:00",
+      "raw_text": "John Doe\nEmail: john@example.com\nSkills: Python, FastAPI, Docker\nExperience\nBackend Engineer",
+      "processed_resume": {
+        "personalInfo": {
+          "name": "",
+          "title": "",
+          "email": "john@example.com",
+          "phone": "",
+          "location": "",
+          "website": "",
+          "linkedin": "",
+          "github": ""
+        },
+        "summary": "John Doe Email: john@example.com Skills: Python, FastAPI, Docker Experience",
+        "workExperience": [],
+        "education": [],
+        "personalProjects": [],
+        "additional": {
+          "technicalSkills": [
+            "John Doe",
+            "Email: john@example.com",
+            "Skills: Python",
+            "FastAPI",
+            "Docker",
+            "Experience",
+            "Backend Engineer"
+          ],
+          "languages": [],
+          "certificationsTraining": [],
+          "awards": []
+        }
+      },
+      "title": null,
+      "cover_letter": null,
+      "outreach_message": null,
+      "job_id": null
+    },
+    "d5c981f1-542a-4114-936b-75fbb1137db6": {
+      "resume_id": "d5c981f1-542a-4114-936b-75fbb1137db6",
+      "filename": "resume.txt",
+      "is_master": false,
+      "parent_id": null,
+      "processing_status": "ready",
+      "created_at": "2026-04-11T14:54:54.671821+00:00",
+      "updated_at": "2026-04-11T14:54:54.671839+00:00",
+      "raw_text": "Jane Doe\nSkills: Python, SQL",
+      "processed_resume": {
+        "personalInfo": {
+          "name": "",
+          "title": "",
+          "email": "",
+          "phone": "",
+          "location": "",
+          "website": "",
+          "linkedin": "",
+          "github": ""
+        },
+        "summary": "Jane Doe Skills: Python, SQL",
+        "workExperience": [],
+        "education": [],
+        "personalProjects": [],
+        "additional": {
+          "technicalSkills": [
+            "Jane Doe",
+            "Skills: Python",
+            "SQL"
+          ],
+          "languages": [],
+          "certificationsTraining": [],
+          "awards": []
+        }
+      },
+      "title": null,
+      "cover_letter": null,
+      "outreach_message": null,
+      "job_id": null
+    },
+    "c8db5fc0-bc66-4a7e-9f9d-2c84eb0f6bd9": {
+      "resume_id": "c8db5fc0-bc66-4a7e-9f9d-2c84eb0f6bd9",
+      "filename": "resume.txt",
+      "is_master": false,
+      "parent_id": "d5c981f1-542a-4114-936b-75fbb1137db6",
+      "processing_status": "ready",
+      "created_at": "2026-04-11T14:55:03.567409+00:00",
+      "updated_at": "2026-04-11T14:55:03.567430+00:00",
+      "raw_text": "Jane Doe\nSkills: Python, SQL",
+      "processed_resume": {
+        "personalInfo": {
+          "name": "",
+          "title": "",
+          "email": "",
+          "phone": "",
+          "location": "",
+          "website": "",
+          "linkedin": "",
+          "github": ""
+        },
+        "summary": "Jane Doe Skills: Python, SQL Tailored to the job requirements with clear alignment to required skills.",
+        "workExperience": [],
+        "education": [],
+        "personalProjects": [],
+        "additional": {
+          "technicalSkills": [
+            "FastAPI",
+            "Jane Doe",
+            "Python",
+            "SQL",
+            "Skills: Python"
+          ],
+          "languages": [],
+          "certificationsTraining": [],
+          "awards": []
+        }
+      },
+      "title": "Need Python FastAPI SQL engineer",
+      "cover_letter": null,
+      "outreach_message": null,
+      "job_id": "7e10b895-67d3-4a89-ada8-8c87091793f1"
+    },
+    "354f61d8-08e1-4d5c-bb43-b5b2c5bd4aee": {
+      "resume_id": "354f61d8-08e1-4d5c-bb43-b5b2c5bd4aee",
+      "filename": "resume.txt",
+      "is_master": false,
+      "parent_id": null,
+      "processing_status": "ready",
+      "created_at": "2026-04-11T16:37:44.797527+00:00",
+      "updated_at": "2026-04-11T16:37:44.797527+00:00",
+      "raw_text": "Alice Doe\nSkills: Python, FastAPI",
+      "processed_resume": {
+        "personalInfo": {
+          "name": "",
+          "title": "",
+          "email": "",
+          "phone": "",
+          "location": "",
+          "website": "",
+          "linkedin": "",
+          "github": ""
+        },
+        "summary": "Alice Doe Skills: Python, FastAPI",
+        "workExperience": [],
+        "education": [],
+        "personalProjects": [],
+        "additional": {
+          "technicalSkills": [
+            "Alice Doe",
+            "Skills: Python",
+            "FastAPI"
+          ],
+          "languages": [],
+          "certificationsTraining": [],
+          "awards": []
+        }
+      },
+      "title": null,
+      "cover_letter": null,
+      "outreach_message": null,
+      "job_id": null
+    },
+    "298b7855-e703-4932-b258-ffe10d3641ba": {
+      "resume_id": "298b7855-e703-4932-b258-ffe10d3641ba",
+      "filename": "dhwaniVyas_resume_myntra.pdf",
+      "is_master": false,
+      "parent_id": null,
+      "processing_status": "ready",
+      "created_at": "2026-04-11T16:40:16.223845+00:00",
+      "updated_at": "2026-04-11T16:40:16.223845+00:00",
+      "raw_text": "Dhwani\nVyas\n(cid:131)+917621092186 | *Gandhinagar,Gujarat\n| #dhwani.vyas05@gmail.com\n| (cid:239)LinkedIn | \u00a7GitHub\n| (cid:128)Portfolio | \u2014LeetCode\nSummary\nComputerSciencestudent(CGPA:9.63,expectedgraduation2027)withstrongexpertiseinfull-stackdevelopment,backendsystemdesign,\nandML-drivenapplications.\nProficientinJava,Python,TypeScript,Django,FastAPI,andReact.js;hands-onexperiencewithDocker,\nKubernetes,CI/CDpipelines,andclouddeploymentonAWSandVercel.\nDelivered4+production-readyprojectsintegratingRESTAPIs,\nNLPpipelines,RAGarchitectures,andDevOpsautomation.\nExperiencedinAgile/Scrumworkflows;strongfoundationindatastructures,\nalgorithms,OOP,DBMS,andsystemdesignprinciples.\nEducation\nPandit Deendayal Energy\nUniversity\nJuly 2023\n\u2013 May 2027 (Expected)\nB.Tech in Computer Science\nEngineering | CGPA: 9.63\nProjects\nCI/CD Pipeline to Kubernetes\nwith Helm | Jenkins, Docker,\nKubernetes, Helm, DevOps, Shell\nScripting \u00a7 2026\n\u2022 Architectedanend-to-end\nCI/CD pipelineusingJenkins\nmulti-stage pipelines,automatingbuild,test,containerization,and\nrollbackworkflowsacross3+\nenvironments;reducedmanualdeploymentoverheadby\n70%.\nContainerizedmicroserviceswithDockerandorchestrateddeploymentsonKubernetesviaHelm\ncharts;wroteshellautomation\n\u2022 scriptsforimagepublishing,chartpackaging,andversioned\nrelease\nmanagement.\n\u2022 Integratedautomated\nhealth checks and smoke testinggatesintothepipelinefollowingAgile\nsprintpractices,reducing\npost-releasedefectrate;configuredenvironment-specificHelm\nvaluesforstagingandproduction.\nAI Resume Analyzer &\nJob Portal | Django, Python, PostgreSQL,\nREST APIs, NLP, Machine\nLearning 2 \u00a7 2025\n\u2022 Builtaproduction-deployedfull-stackjobportalwithDjangoRESTFrameworksupporting50+concurrentusers,withresume\nupload,NLP-based resume\nscoring,andintelligentcandidate-job\nmatchingacross3userroles(Admin,Recruiter,Candidate).\n\u2022 EngineeredNLP pipelinesforkeywordextraction,skillgapanalysis,andjobrecommendation;implementedRBAC\nauthentication\nwithJWT,securingAPIendpointsandenforcingrole-leveldataaccesscontrol.\n\u2022 OptimizedPostgreSQLqueryperformanceusingindexingandqueryplanning,achievingsub-200ms\nAPI response times;deployed\nonRailwaywithenvironment-basedconfigurationmanagementforscalablemulti-useraccess.\nAI Email Automation\nSystem | Python, RAG, LangGraph,\nLangChain, FastAPI, ChromaDB, Gmail\nAPI \u00a7 2026\n\u2022 Developedabackend\nautomation systemintegratingGmail\nAPIforreal-timeemailingestion;designedLangGraph\nstateful\nagentic workflowsformulti-classintentclassificationanddynamicmulti-steptaskorchestrationacross5+\nintent categories.\n\u2022 ImplementedaRetrieval-Augmented\nGeneration (RAG)pipelineusingChromaDBasavectorstoreforcontext-aware,\nsemanticallygroundedresponsegenerationacrosshigh-volumeemailthreads.\nDeployedscalableREST\nAPIswithFastAPIandLangServe;optimizeddataingestionpipelinesachievingsub-second\nvector\n\u2022\nretrievalandLLM-poweredautomatedreplygenerationwith90%+\nclassification accuracy.\nPayZen \u2013 Shared Expense\n& Payments Platform | Next.js,\nTypeScript, Prisma, PostgreSQL,\nStripe, Auth.js 2 \u00a7 2026\nBuiltafull-stack fintech\nplatformhandlingend-to-endtransactionflows\u2014walletprovisioning,groupledgers,equal-splitexpense\n\u2022\ntracking,andreal-time\nsettlement suggestions\u2014backedbyanormalizedPostgreSQL\nrelational\nschemaspanning4+entity\ntypes;serving 100+\nactive users.\n\u2022 IntegratedStripe Checkout\nAPIforsecurewallettop-upsandpeer-to-peerpaymentexecution;implementedmulti-provider\nauthentication(email/password+GoogleOAuth)withAuth.jsandsecuresessionmanagement.\n\u2022 DesignedamodularTypeScriptcodebasewithPrisma\nORMfortype-saferelationaldataaccess;deployedonVercelwithNext.js\nApp Routerforoptimizedserver-siderendering,achievingfastpageloadsandSEO-friendlyproductcatalogstructure.\nSkills\nLanguages: Java,Python,C++,SQL,JavaScript,TypeScript,HTML,CSS,ShellScripting\nWeb & Backend: React.js,Next.js,Node.js,Express.js,Django,FastAPI,RESTAPIs,TailwindCSS,LangServe\nDatabases: PostgreSQL,MongoDB,SQLite,PrismaORM,Supabase,ChromaDB(VectorDB)\nAI/ML:TensorFlow,PyTorch,Scikit-learn,Pandas,NumPy,NLP,LangChain,LangGraph,RAG,LLM,PromptEngineering\nCloud & DevOps: Docker,Kubernetes,Helm,Jenkins,CI/CD,AWS,Vercel,Railway,Stripe,Auth.js\nCS Fundamentals: DataStructures&Algorithms,SystemDesign,OOP,DBMS,OperatingSystems,ComputerNetworks\nMethodologies: Agile,Scrum,SprintPlanning,CodeReview,TechnicalDocumentation\nTools: Git,GitHub,Postman,JupyterNotebook,VSCode\nCertifications\nIBM AI & Cloud Internship\n(4 weeks)\u2013EdunetFoundation\nAug 2025 [link] Google Data Analytics\u2013Coursera\nJuly 2024 [link]\nAI Fundamentals\u2013IBMSkillsBuild\nJune 2024 [link] Google AI\nEssentials\u2013Coursera July 2024 [link]\nCisco Networking Basics\nAug 2025 [link]\nAchievements\n\u2022 1st Runner-up,Breach\u201925Hackathon(48-hour)atPDEU,Gandhinagar;Top\n50 teamsoutof500+,LevelSupermindHackathon\u201925,\nMumbai.\n\u2022 Conducteda1.5-hour technical\nworkshop on Python Librariesfor100+\nstudents,organizedbyGeeksForGeeksatPDEU.\n\u2022 LeetCode: 500+problemssolvedacrossarrays,trees,graphs,dynamicprogramming,andbinarysearch.",
+      "processed_resume": {
+        "personalInfo": {
+          "name": "",
+          "title": "",
+          "email": "dhwani.vyas05@gmail.com",
+          "phone": "+917621092186",
+          "location": "",
+          "website": "",
+          "linkedin": "",
+          "github": ""
+        },
+        "summary": "Dhwani Vyas (cid:131)+917621092186 | *Gandhinagar,Gujarat | #dhwani.vyas05@gmail.com",
+        "workExperience": [
+          {
+            "id": 1,
+            "title": "Kubernetes,CI/CDpipelines,andclouddeploymentonAWSandVercel.",
+            "company": "",
+            "location": "",
+            "years": "",
+            "description": []
+          },
+          {
+            "id": 2,
+            "title": "Delivered4+production-readyprojectsintegratingRESTAPIs,",
+            "company": "",
+            "location": "",
+            "years": "",
+            "description": []
+          },
+          {
+            "id": 3,
+            "title": "NLPpipelines,RAGarchitectures,andDevOpsautomation.",
+            "company": "",
+            "location": "",
+            "years": "",
+            "description": []
+          },
+          {
+            "id": 4,
+            "title": "algorithms,OOP,DBMS,andsystemdesignprinciples.",
+            "company": "",
+            "location": "",
+            "years": "",
+            "description": []
+          }
+        ],
+        "education": [],
+        "personalProjects": [
+          {
+            "id": 1,
+            "name": "NLPpipelines,RAGarchitectures,andDevOpsautomation.",
+            "role": "",
+            "years": "",
+            "github": "",
+            "website": "",
+            "description": []
+          },
+          {
+            "id": 2,
+            "name": "ExperiencedinAgile/Scrumworkflows;strongfoundationindatastructures,",
+            "role": "",
+            "years": "",
+            "github": "",
+            "website": "",
+            "description": []
+          },
+          {
+            "id": 3,
+            "name": "algorithms,OOP,DBMS,andsystemdesignprinciples.",
+            "role": "",
+            "years": "",
+            "github": "",
+            "website": "",
+            "description": []
+          }
+        ],
+        "additional": {
+          "technicalSkills": [
+            "Languages: Java",
+            "Python",
+            "C++",
+            "SQL",
+            "JavaScript",
+            "TypeScript",
+            "HTML",
+            "CSS",
+            "ShellScripting",
+            "Web & Backend: React.js",
+            "Next.js",
+            "Node.js",
+            "Express.js",
+            "Django",
+            "FastAPI",
+            "RESTAPIs",
+            "TailwindCSS",
+            "LangServe",
+            "Databases: PostgreSQL",
+            "MongoDB",
+            "SQLite",
+            "PrismaORM",
+            "Supabase",
+            "ChromaDB(VectorDB)",
+            "AI",
+            "ML:TensorFlow",
+            "PyTorch",
+            "Scikit-learn",
+            "Pandas",
+            "NumPy",
+            "NLP",
+            "LangChain",
+            "LangGraph",
+            "RAG",
+            "LLM",
+            "PromptEngineering",
+            "Cloud & DevOps: Docker",
+            "Kubernetes",
+            "Helm",
+            "Jenkins",
+            "CI",
+            "CD",
+            "AWS",
+            "Vercel",
+            "Railway",
+            "Stripe",
+            "Auth.js",
+            "CS Fundamentals: DataStructures&Algorithms",
+            "SystemDesign",
+            "OOP",
+            "DBMS",
+            "OperatingSystems",
+            "ComputerNetworks",
+            "Methodologies: Agile",
+            "Scrum",
+            "SprintPlanning",
+            "CodeReview",
+            "TechnicalDocumentation",
+            "Tools: Git",
+            "GitHub",
+            "Postman",
+            "JupyterNotebook",
+            "VSCode"
+          ],
+          "languages": [],
+          "certificationsTraining": [
+            "IBM AI & Cloud Internship",
+            "(4 weeks)\u2013EdunetFoundation",
+            "Aug 2025 [link] Google Data Analytics\u2013Coursera",
+            "July 2024 [link]",
+            "AI Fundamentals\u2013IBMSkillsBuild",
+            "June 2024 [link] Google AI",
+            "Essentials\u2013Coursera July 2024 [link]"
+          ],
+          "awards": []
+        }
+      },
+      "title": null,
+      "cover_letter": null,
+      "outreach_message": null,
+      "job_id": null
+    },
+    "9aeaef0f-d461-4991-8a6b-27f430e1d0ee": {
+      "resume_id": "9aeaef0f-d461-4991-8a6b-27f430e1d0ee",
+      "filename": "dhwani_vyas_resume (6).pdf",
+      "is_master": false,
+      "parent_id": null,
+      "processing_status": "ready",
+      "created_at": "2026-04-11T16:41:54.201161+00:00",
+      "updated_at": "2026-04-11T16:41:54.201161+00:00",
+      "raw_text": "Dhwani\nVyas\n(cid:131)+917621092186 | *Gandhinagar,Gujarat\n| #dhwani.vyas05@gmail.com\n| (cid:239)LinkedIn | \u00a7GitHub\n| (cid:128)Portfolio | \u2014LeetCode\nSummary\nComputerSciencestudent(CGPA:9.63)withstrongexpertiseinfull-stackdevelopment,backendsystemdesign,andML-drivenapplications.\nProficientinJava,Python,TypeScript,Django,FastAPI,andReact.js;hands-onexperiencewithDocker,Kubernetes,CI/CDpipelines,and\nclouddeploymentonAWSandVercel.\nDelivered4+production-readyprojectsintegratingRESTAPIs,NLPpipelines,RAGarchitectures,\nandDevOpsautomation. Strongfoundationindatastructures,algorithms,OOP,DBMS,andsystemdesignprinciples.\nEducation\nPandit Deendayal Energy\nUniversity | B.Tech in Computer\nScience Engineering | CGPA:\n9.63July 2023 \u2013 Present\nProjects\nCI/CD Pipeline to Kubernetes\nwith Helm | Jenkins, Docker,\nKubernetes, Helm, DevOps, Shell\nScripting \u00a7 2026\n\u2022 Architectedanend-to-end\nCI/CD pipelineusingJenkins\nmulti-stage pipelines,automatingbuild,test,containerization,and\nrollbackworkflowsacross3+\nenvironments,eliminatingmanualdeploymentoverhead.\n\u2022 ContainerizedmicroserviceswithDockerandorchestrateddeploymentsonKubernetesviaHelm\ncharts;wroteshellautomation\nscriptsforimagepublishing,chartpackaging,andversioned\nrelease\nmanagement.\n\u2022 Integratedautomated\nhealth checks and smoke testinggatesintothepipeline,enforcingdeploymentreliabilityandreducing\npost-releasedefectrate;configuredenvironment-specificHelm\nvaluesforstagingandproduction.\nAI Resume Analyzer &\nJob Portal | Django, Python, PostgreSQL,\nREST APIs, NLP, Machine\nLearning 2 \u00a7 2025\n\u2022 Builtaproduction-deployedfull-stack\njob portalwithDjango\nREST Framework,supportingresumeupload,NLP-based\nresume scoring,andintelligentcandidate-job\nmatchingacross3userroles(Admin,Recruiter,Candidate).\n\u2022 EngineeredNLP pipelinesforkeywordextraction,skillgapanalysis,andjobrecommendation;implementedRBAC\nauthentication\nwithJWT,securingAPIendpointsandenforcingrole-leveldataaccesscontrol.\nOptimizedPostgreSQLqueryperformanceusingindexingandqueryplanning;deployedonRailwaywithenvironment-based\n\u2022\nconfigurationmanagementforscalable,concurrentmulti-useraccess.\nAI Email Automation\nSystem | Python, RAG, LangGraph,\nLangChain, FastAPI, ChromaDB, Gmail\nAPI \u00a7 2026\n\u2022 Developedabackend\nautomation systemintegratingGmail\nAPIforreal-timeemailingestion;designedLangGraph\nstateful\nagentic workflowsformulti-classintentclassificationanddynamicmulti-steptaskorchestration.\n\u2022 ImplementedaRetrieval-Augmented\nGeneration (RAG)pipelineusingChromaDBasavectorstoreforcontext-aware,\nsemanticallygroundedresponsegenerationacrosshigh-volumeemailthreads.\n\u2022 DeployedscalableREST\nAPIswithFastAPIandLangServe;optimizeddataingestionpipelinesforthroughputefficiencywith\nsub-secondvectorretrievalandLLM-poweredautomatedreplygeneration.\nPayZen \u2013 Shared Expense\nPlatform | Next.js, TypeScript,\nPrisma, PostgreSQL, Stripe, Auth.js\n2 \u00a7 2026\n\u2022 Builtafull-stack fintech\nplatformwithwalletprovisioning,groupledgers,equal-splitexpensetracking,andreal-time\nsettlement\nsuggestionsbackedbyanormalizedPostgreSQL\nrelational\nschemaspanning4+entitytypes.\n\u2022 IntegratedStripe Checkout\nAPIforsecurewallettop-upsandpeer-to-peersettlementexecution;implementedmulti-provider\nauthentication(email/password+GoogleOAuth)withAuth.jsandsecuresessionmanagement.\n\u2022 DesignedamodularTypeScriptcodebasewithPrisma\nORMfortype-safe,relationaldataaccess;deployedonVercelwithoptimized\nserver-siderenderingviaNext.js\nApp Routerforfast,SEO-friendlypageloads.\nSkills\nLanguages: Java,Python,C++,SQL,JavaScript,TypeScript,HTML,CSS,ShellScripting\nWeb & Backend: React.js,Next.js,Node.js,Express.js,Django,FastAPI,RESTAPIs,TailwindCSS,LangServe\nDatabases: PostgreSQL,MongoDB,SQLite,PrismaORM,Supabase,ChromaDB(VectorDB)\nAI/ML:TensorFlow,PyTorch,Scikit-learn,Pandas,NumPy,NLP,LangChain,LangGraph,RAG,LLM,PromptEngineering\nCloud & DevOps: Docker,Kubernetes,Helm,Jenkins,CI/CD,AWS,Vercel,Railway,Stripe,Auth.js\nCS Fundamentals: DataStructures&Algorithms,SystemDesign,OOP,DBMS,OperatingSystems,ComputerNetworks\nTools: Git,GitHub,Postman,JupyterNotebook,VSCode\nCertifications\nIBM AI & Cloud Internship\n(4 weeks)\u2013EdunetFoundation\nAug 2025 [link] Google Data Analytics\u2013Coursera\nJuly 2024 [link]\nAI Fundamentals\u2013IBMSkillsBuild\nJune 2024 [link] Google AI\nEssentials\u2013Coursera July 2024 [link]\nCisco Networking Basics\nAug 2025 [link]\nAchievements\n\u2022 1st Runner-up,Breach\u201925Hackathon(48-hour)atPDEU,Gandhinagar;Top\n50 teamsoutof500+,LevelSupermindHackathon\u201925,\nMumbai.\n\u2022 Conducteda1.5-hour technical\nworkshop on Python Librariesfor100+\nstudents,organizedbyGeeksForGeeksatPDEU.\n\u2022 LeetCode: 500+problemssolvedacrossarrays,trees,graphs,dynamicprogramming,andbinarysearch.",
+      "processed_resume": {
+        "personalInfo": {
+          "name": "",
+          "title": "",
+          "email": "dhwani.vyas05@gmail.com",
+          "phone": "+917621092186",
+          "location": "",
+          "website": "",
+          "linkedin": "",
+          "github": ""
+        },
+        "summary": "Dhwani Vyas (cid:131)+917621092186 | *Gandhinagar,Gujarat | #dhwani.vyas05@gmail.com",
+        "workExperience": [
+          {
+            "id": 1,
+            "title": "clouddeploymentonAWSandVercel.",
+            "company": "",
+            "location": "",
+            "years": "",
+            "description": []
+          },
+          {
+            "id": 2,
+            "title": "Delivered4+production-readyprojectsintegratingRESTAPIs,NLPpipelines,RAGarchitectures,",
+            "company": "",
+            "location": "",
+            "years": "",
+            "description": []
+          },
+          {
+            "id": 3,
+            "title": "andDevOpsautomation. Strongfoundationindatastructures,algorithms,OOP,DBMS,andsystemdesignprinciples.",
+            "company": "",
+            "location": "",
+            "years": "",
+            "description": []
+          }
+        ],
+        "education": [],
+        "personalProjects": [
+          {
+            "id": 1,
+            "name": "andDevOpsautomation. Strongfoundationindatastructures,algorithms,OOP,DBMS,andsystemdesignprinciples.",
+            "role": "",
+            "years": "",
+            "github": "",
+            "website": "",
+            "description": []
+          }
+        ],
+        "additional": {
+          "technicalSkills": [
+            "Languages: Java",
+            "Python",
+            "C++",
+            "SQL",
+            "JavaScript",
+            "TypeScript",
+            "HTML",
+            "CSS",
+            "ShellScripting",
+            "Web & Backend: React.js",
+            "Next.js",
+            "Node.js",
+            "Express.js",
+            "Django",
+            "FastAPI",
+            "RESTAPIs",
+            "TailwindCSS",
+            "LangServe",
+            "Databases: PostgreSQL",
+            "MongoDB",
+            "SQLite",
+            "PrismaORM",
+            "Supabase",
+            "ChromaDB(VectorDB)",
+            "AI",
+            "ML:TensorFlow",
+            "PyTorch",
+            "Scikit-learn",
+            "Pandas",
+            "NumPy",
+            "NLP",
+            "LangChain",
+            "LangGraph",
+            "RAG",
+            "LLM",
+            "PromptEngineering",
+            "Cloud & DevOps: Docker",
+            "Kubernetes",
+            "Helm",
+            "Jenkins",
+            "CI",
+            "CD",
+            "AWS",
+            "Vercel",
+            "Railway",
+            "Stripe",
+            "Auth.js",
+            "CS Fundamentals: DataStructures&Algorithms",
+            "SystemDesign",
+            "OOP",
+            "DBMS",
+            "OperatingSystems",
+            "ComputerNetworks",
+            "Tools: Git",
+            "GitHub",
+            "Postman",
+            "JupyterNotebook",
+            "VSCode"
+          ],
+          "languages": [],
+          "certificationsTraining": [
+            "IBM AI & Cloud Internship",
+            "(4 weeks)\u2013EdunetFoundation",
+            "Aug 2025 [link] Google Data Analytics\u2013Coursera",
+            "July 2024 [link]",
+            "AI Fundamentals\u2013IBMSkillsBuild",
+            "June 2024 [link] Google AI",
+            "Essentials\u2013Coursera July 2024 [link]"
+          ],
+          "awards": []
+        }
+      },
+      "title": null,
+      "cover_letter": null,
+      "outreach_message": null,
+      "job_id": null
+    },
+    "478bdf11-a62b-4bcc-bec5-b2741033512f": {
+      "resume_id": "478bdf11-a62b-4bcc-bec5-b2741033512f",
+      "filename": "dhwaniVyas_resume_myntra.pdf",
+      "is_master": false,
+      "parent_id": null,
+      "processing_status": "ready",
+      "created_at": "2026-04-11T16:42:59.532791+00:00",
+      "updated_at": "2026-04-11T16:42:59.532791+00:00",
+      "raw_text": "Dhwani\nVyas\n(cid:131)+917621092186 | *Gandhinagar,Gujarat\n| #dhwani.vyas05@gmail.com\n| (cid:239)LinkedIn | \u00a7GitHub\n| (cid:128)Portfolio | \u2014LeetCode\nSummary\nComputerSciencestudent(CGPA:9.63,expectedgraduation2027)withstrongexpertiseinfull-stackdevelopment,backendsystemdesign,\nandML-drivenapplications.\nProficientinJava,Python,TypeScript,Django,FastAPI,andReact.js;hands-onexperiencewithDocker,\nKubernetes,CI/CDpipelines,andclouddeploymentonAWSandVercel.\nDelivered4+production-readyprojectsintegratingRESTAPIs,\nNLPpipelines,RAGarchitectures,andDevOpsautomation.\nExperiencedinAgile/Scrumworkflows;strongfoundationindatastructures,\nalgorithms,OOP,DBMS,andsystemdesignprinciples.\nEducation\nPandit Deendayal Energy\nUniversity\nJuly 2023\n\u2013 May 2027 (Expected)\nB.Tech in Computer Science\nEngineering | CGPA: 9.63\nProjects\nCI/CD Pipeline to Kubernetes\nwith Helm | Jenkins, Docker,\nKubernetes, Helm, DevOps, Shell\nScripting \u00a7 2026\n\u2022 Architectedanend-to-end\nCI/CD pipelineusingJenkins\nmulti-stage pipelines,automatingbuild,test,containerization,and\nrollbackworkflowsacross3+\nenvironments;reducedmanualdeploymentoverheadby\n70%.\nContainerizedmicroserviceswithDockerandorchestrateddeploymentsonKubernetesviaHelm\ncharts;wroteshellautomation\n\u2022 scriptsforimagepublishing,chartpackaging,andversioned\nrelease\nmanagement.\n\u2022 Integratedautomated\nhealth checks and smoke testinggatesintothepipelinefollowingAgile\nsprintpractices,reducing\npost-releasedefectrate;configuredenvironment-specificHelm\nvaluesforstagingandproduction.\nAI Resume Analyzer &\nJob Portal | Django, Python, PostgreSQL,\nREST APIs, NLP, Machine\nLearning 2 \u00a7 2025\n\u2022 Builtaproduction-deployedfull-stackjobportalwithDjangoRESTFrameworksupporting50+concurrentusers,withresume\nupload,NLP-based resume\nscoring,andintelligentcandidate-job\nmatchingacross3userroles(Admin,Recruiter,Candidate).\n\u2022 EngineeredNLP pipelinesforkeywordextraction,skillgapanalysis,andjobrecommendation;implementedRBAC\nauthentication\nwithJWT,securingAPIendpointsandenforcingrole-leveldataaccesscontrol.\n\u2022 OptimizedPostgreSQLqueryperformanceusingindexingandqueryplanning,achievingsub-200ms\nAPI response times;deployed\nonRailwaywithenvironment-basedconfigurationmanagementforscalablemulti-useraccess.\nAI Email Automation\nSystem | Python, RAG, LangGraph,\nLangChain, FastAPI, ChromaDB, Gmail\nAPI \u00a7 2026\n\u2022 Developedabackend\nautomation systemintegratingGmail\nAPIforreal-timeemailingestion;designedLangGraph\nstateful\nagentic workflowsformulti-classintentclassificationanddynamicmulti-steptaskorchestrationacross5+\nintent categories.\n\u2022 ImplementedaRetrieval-Augmented\nGeneration (RAG)pipelineusingChromaDBasavectorstoreforcontext-aware,\nsemanticallygroundedresponsegenerationacrosshigh-volumeemailthreads.\nDeployedscalableREST\nAPIswithFastAPIandLangServe;optimizeddataingestionpipelinesachievingsub-second\nvector\n\u2022\nretrievalandLLM-poweredautomatedreplygenerationwith90%+\nclassification accuracy.\nPayZen \u2013 Shared Expense\n& Payments Platform | Next.js,\nTypeScript, Prisma, PostgreSQL,\nStripe, Auth.js 2 \u00a7 2026\nBuiltafull-stack fintech\nplatformhandlingend-to-endtransactionflows\u2014walletprovisioning,groupledgers,equal-splitexpense\n\u2022\ntracking,andreal-time\nsettlement suggestions\u2014backedbyanormalizedPostgreSQL\nrelational\nschemaspanning4+entity\ntypes;serving 100+\nactive users.\n\u2022 IntegratedStripe Checkout\nAPIforsecurewallettop-upsandpeer-to-peerpaymentexecution;implementedmulti-provider\nauthentication(email/password+GoogleOAuth)withAuth.jsandsecuresessionmanagement.\n\u2022 DesignedamodularTypeScriptcodebasewithPrisma\nORMfortype-saferelationaldataaccess;deployedonVercelwithNext.js\nApp Routerforoptimizedserver-siderendering,achievingfastpageloadsandSEO-friendlyproductcatalogstructure.\nSkills\nLanguages: Java,Python,C++,SQL,JavaScript,TypeScript,HTML,CSS,ShellScripting\nWeb & Backend: React.js,Next.js,Node.js,Express.js,Django,FastAPI,RESTAPIs,TailwindCSS,LangServe\nDatabases: PostgreSQL,MongoDB,SQLite,PrismaORM,Supabase,ChromaDB(VectorDB)\nAI/ML:TensorFlow,PyTorch,Scikit-learn,Pandas,NumPy,NLP,LangChain,LangGraph,RAG,LLM,PromptEngineering\nCloud & DevOps: Docker,Kubernetes,Helm,Jenkins,CI/CD,AWS,Vercel,Railway,Stripe,Auth.js\nCS Fundamentals: DataStructures&Algorithms,SystemDesign,OOP,DBMS,OperatingSystems,ComputerNetworks\nMethodologies: Agile,Scrum,SprintPlanning,CodeReview,TechnicalDocumentation\nTools: Git,GitHub,Postman,JupyterNotebook,VSCode\nCertifications\nIBM AI & Cloud Internship\n(4 weeks)\u2013EdunetFoundation\nAug 2025 [link] Google Data Analytics\u2013Coursera\nJuly 2024 [link]\nAI Fundamentals\u2013IBMSkillsBuild\nJune 2024 [link] Google AI\nEssentials\u2013Coursera July 2024 [link]\nCisco Networking Basics\nAug 2025 [link]\nAchievements\n\u2022 1st Runner-up,Breach\u201925Hackathon(48-hour)atPDEU,Gandhinagar;Top\n50 teamsoutof500+,LevelSupermindHackathon\u201925,\nMumbai.\n\u2022 Conducteda1.5-hour technical\nworkshop on Python Librariesfor100+\nstudents,organizedbyGeeksForGeeksatPDEU.\n\u2022 LeetCode: 500+problemssolvedacrossarrays,trees,graphs,dynamicprogramming,andbinarysearch.",
+      "processed_resume": {
+        "personalInfo": {
+          "name": "",
+          "title": "",
+          "email": "dhwani.vyas05@gmail.com",
+          "phone": "+917621092186",
+          "location": "",
+          "website": "",
+          "linkedin": "",
+          "github": ""
+        },
+        "summary": "Dhwani Vyas (cid:131)+917621092186 | *Gandhinagar,Gujarat | #dhwani.vyas05@gmail.com",
+        "workExperience": [
+          {
+            "id": 1,
+            "title": "Kubernetes,CI/CDpipelines,andclouddeploymentonAWSandVercel.",
+            "company": "",
+            "location": "",
+            "years": "",
+            "description": []
+          },
+          {
+            "id": 2,
+            "title": "Delivered4+production-readyprojectsintegratingRESTAPIs,",
+            "company": "",
+            "location": "",
+            "years": "",
+            "description": []
+          },
+          {
+            "id": 3,
+            "title": "NLPpipelines,RAGarchitectures,andDevOpsautomation.",
+            "company": "",
+            "location": "",
+            "years": "",
+            "description": []
+          },
+          {
+            "id": 4,
+            "title": "algorithms,OOP,DBMS,andsystemdesignprinciples.",
+            "company": "",
+            "location": "",
+            "years": "",
+            "description": []
+          }
+        ],
+        "education": [],
+        "personalProjects": [
+          {
+            "id": 1,
+            "name": "NLPpipelines,RAGarchitectures,andDevOpsautomation.",
+            "role": "",
+            "years": "",
+            "github": "",
+            "website": "",
+            "description": []
+          },
+          {
+            "id": 2,
+            "name": "ExperiencedinAgile/Scrumworkflows;strongfoundationindatastructures,",
+            "role": "",
+            "years": "",
+            "github": "",
+            "website": "",
+            "description": []
+          },
+          {
+            "id": 3,
+            "name": "algorithms,OOP,DBMS,andsystemdesignprinciples.",
+            "role": "",
+            "years": "",
+            "github": "",
+            "website": "",
+            "description": []
+          }
+        ],
+        "additional": {
+          "technicalSkills": [
+            "Languages: Java",
+            "Python",
+            "C++",
+            "SQL",
+            "JavaScript",
+            "TypeScript",
+            "HTML",
+            "CSS",
+            "ShellScripting",
+            "Web & Backend: React.js",
+            "Next.js",
+            "Node.js",
+            "Express.js",
+            "Django",
+            "FastAPI",
+            "RESTAPIs",
+            "TailwindCSS",
+            "LangServe",
+            "Databases: PostgreSQL",
+            "MongoDB",
+            "SQLite",
+            "PrismaORM",
+            "Supabase",
+            "ChromaDB(VectorDB)",
+            "AI",
+            "ML:TensorFlow",
+            "PyTorch",
+            "Scikit-learn",
+            "Pandas",
+            "NumPy",
+            "NLP",
+            "LangChain",
+            "LangGraph",
+            "RAG",
+            "LLM",
+            "PromptEngineering",
+            "Cloud & DevOps: Docker",
+            "Kubernetes",
+            "Helm",
+            "Jenkins",
+            "CI",
+            "CD",
+            "AWS",
+            "Vercel",
+            "Railway",
+            "Stripe",
+            "Auth.js",
+            "CS Fundamentals: DataStructures&Algorithms",
+            "SystemDesign",
+            "OOP",
+            "DBMS",
+            "OperatingSystems",
+            "ComputerNetworks",
+            "Methodologies: Agile",
+            "Scrum",
+            "SprintPlanning",
+            "CodeReview",
+            "TechnicalDocumentation",
+            "Tools: Git",
+            "GitHub",
+            "Postman",
+            "JupyterNotebook",
+            "VSCode"
+          ],
+          "languages": [],
+          "certificationsTraining": [
+            "IBM AI & Cloud Internship",
+            "(4 weeks)\u2013EdunetFoundation",
+            "Aug 2025 [link] Google Data Analytics\u2013Coursera",
+            "July 2024 [link]",
+            "AI Fundamentals\u2013IBMSkillsBuild",
+            "June 2024 [link] Google AI",
+            "Essentials\u2013Coursera July 2024 [link]"
+          ],
+          "awards": []
+        }
+      },
+      "title": null,
+      "cover_letter": null,
+      "outreach_message": null,
+      "job_id": null
+    },
+    "bbe56304-d30e-4370-b373-7b721df092b3": {
+      "resume_id": "bbe56304-d30e-4370-b373-7b721df092b3",
+      "filename": "dhwaniVyas_resume_myntra.pdf",
+      "is_master": false,
+      "parent_id": null,
+      "processing_status": "ready",
+      "created_at": "2026-04-11T16:55:04.819837+00:00",
+      "updated_at": "2026-04-11T16:55:04.819837+00:00",
+      "raw_text": "Dhwani\nVyas\n(cid:131)+917621092186 | *Gandhinagar,Gujarat\n| #dhwani.vyas05@gmail.com\n| (cid:239)LinkedIn | \u00a7GitHub\n| (cid:128)Portfolio | \u2014LeetCode\nSummary\nComputerSciencestudent(CGPA:9.63,expectedgraduation2027)withstrongexpertiseinfull-stackdevelopment,backendsystemdesign,\nandML-drivenapplications.\nProficientinJava,Python,TypeScript,Django,FastAPI,andReact.js;hands-onexperiencewithDocker,\nKubernetes,CI/CDpipelines,andclouddeploymentonAWSandVercel.\nDelivered4+production-readyprojectsintegratingRESTAPIs,\nNLPpipelines,RAGarchitectures,andDevOpsautomation.\nExperiencedinAgile/Scrumworkflows;strongfoundationindatastructures,\nalgorithms,OOP,DBMS,andsystemdesignprinciples.\nEducation\nPandit Deendayal Energy\nUniversity\nJuly 2023\n\u2013 May 2027 (Expected)\nB.Tech in Computer Science\nEngineering | CGPA: 9.63\nProjects\nCI/CD Pipeline to Kubernetes\nwith Helm | Jenkins, Docker,\nKubernetes, Helm, DevOps, Shell\nScripting \u00a7 2026\n\u2022 Architectedanend-to-end\nCI/CD pipelineusingJenkins\nmulti-stage pipelines,automatingbuild,test,containerization,and\nrollbackworkflowsacross3+\nenvironments;reducedmanualdeploymentoverheadby\n70%.\nContainerizedmicroserviceswithDockerandorchestrateddeploymentsonKubernetesviaHelm\ncharts;wroteshellautomation\n\u2022 scriptsforimagepublishing,chartpackaging,andversioned\nrelease\nmanagement.\n\u2022 Integratedautomated\nhealth checks and smoke testinggatesintothepipelinefollowingAgile\nsprintpractices,reducing\npost-releasedefectrate;configuredenvironment-specificHelm\nvaluesforstagingandproduction.\nAI Resume Analyzer &\nJob Portal | Django, Python, PostgreSQL,\nREST APIs, NLP, Machine\nLearning 2 \u00a7 2025\n\u2022 Builtaproduction-deployedfull-stackjobportalwithDjangoRESTFrameworksupporting50+concurrentusers,withresume\nupload,NLP-based resume\nscoring,andintelligentcandidate-job\nmatchingacross3userroles(Admin,Recruiter,Candidate).\n\u2022 EngineeredNLP pipelinesforkeywordextraction,skillgapanalysis,andjobrecommendation;implementedRBAC\nauthentication\nwithJWT,securingAPIendpointsandenforcingrole-leveldataaccesscontrol.\n\u2022 OptimizedPostgreSQLqueryperformanceusingindexingandqueryplanning,achievingsub-200ms\nAPI response times;deployed\nonRailwaywithenvironment-basedconfigurationmanagementforscalablemulti-useraccess.\nAI Email Automation\nSystem | Python, RAG, LangGraph,\nLangChain, FastAPI, ChromaDB, Gmail\nAPI \u00a7 2026\n\u2022 Developedabackend\nautomation systemintegratingGmail\nAPIforreal-timeemailingestion;designedLangGraph\nstateful\nagentic workflowsformulti-classintentclassificationanddynamicmulti-steptaskorchestrationacross5+\nintent categories.\n\u2022 ImplementedaRetrieval-Augmented\nGeneration (RAG)pipelineusingChromaDBasavectorstoreforcontext-aware,\nsemanticallygroundedresponsegenerationacrosshigh-volumeemailthreads.\nDeployedscalableREST\nAPIswithFastAPIandLangServe;optimizeddataingestionpipelinesachievingsub-second\nvector\n\u2022\nretrievalandLLM-poweredautomatedreplygenerationwith90%+\nclassification accuracy.\nPayZen \u2013 Shared Expense\n& Payments Platform | Next.js,\nTypeScript, Prisma, PostgreSQL,\nStripe, Auth.js 2 \u00a7 2026\nBuiltafull-stack fintech\nplatformhandlingend-to-endtransactionflows\u2014walletprovisioning,groupledgers,equal-splitexpense\n\u2022\ntracking,andreal-time\nsettlement suggestions\u2014backedbyanormalizedPostgreSQL\nrelational\nschemaspanning4+entity\ntypes;serving 100+\nactive users.\n\u2022 IntegratedStripe Checkout\nAPIforsecurewallettop-upsandpeer-to-peerpaymentexecution;implementedmulti-provider\nauthentication(email/password+GoogleOAuth)withAuth.jsandsecuresessionmanagement.\n\u2022 DesignedamodularTypeScriptcodebasewithPrisma\nORMfortype-saferelationaldataaccess;deployedonVercelwithNext.js\nApp Routerforoptimizedserver-siderendering,achievingfastpageloadsandSEO-friendlyproductcatalogstructure.\nSkills\nLanguages: Java,Python,C++,SQL,JavaScript,TypeScript,HTML,CSS,ShellScripting\nWeb & Backend: React.js,Next.js,Node.js,Express.js,Django,FastAPI,RESTAPIs,TailwindCSS,LangServe\nDatabases: PostgreSQL,MongoDB,SQLite,PrismaORM,Supabase,ChromaDB(VectorDB)\nAI/ML:TensorFlow,PyTorch,Scikit-learn,Pandas,NumPy,NLP,LangChain,LangGraph,RAG,LLM,PromptEngineering\nCloud & DevOps: Docker,Kubernetes,Helm,Jenkins,CI/CD,AWS,Vercel,Railway,Stripe,Auth.js\nCS Fundamentals: DataStructures&Algorithms,SystemDesign,OOP,DBMS,OperatingSystems,ComputerNetworks\nMethodologies: Agile,Scrum,SprintPlanning,CodeReview,TechnicalDocumentation\nTools: Git,GitHub,Postman,JupyterNotebook,VSCode\nCertifications\nIBM AI & Cloud Internship\n(4 weeks)\u2013EdunetFoundation\nAug 2025 [link] Google Data Analytics\u2013Coursera\nJuly 2024 [link]\nAI Fundamentals\u2013IBMSkillsBuild\nJune 2024 [link] Google AI\nEssentials\u2013Coursera July 2024 [link]\nCisco Networking Basics\nAug 2025 [link]\nAchievements\n\u2022 1st Runner-up,Breach\u201925Hackathon(48-hour)atPDEU,Gandhinagar;Top\n50 teamsoutof500+,LevelSupermindHackathon\u201925,\nMumbai.\n\u2022 Conducteda1.5-hour technical\nworkshop on Python Librariesfor100+\nstudents,organizedbyGeeksForGeeksatPDEU.\n\u2022 LeetCode: 500+problemssolvedacrossarrays,trees,graphs,dynamicprogramming,andbinarysearch.",
+      "processed_resume": {
+        "personalInfo": {
+          "name": "",
+          "title": "",
+          "email": "dhwani.vyas05@gmail.com",
+          "phone": "+917621092186",
+          "location": "",
+          "website": "",
+          "linkedin": "",
+          "github": ""
+        },
+        "summary": "Dhwani Vyas (cid:131)+917621092186 | *Gandhinagar,Gujarat | #dhwani.vyas05@gmail.com",
+        "workExperience": [
+          {
+            "id": 1,
+            "title": "Kubernetes,CI/CDpipelines,andclouddeploymentonAWSandVercel.",
+            "company": "",
+            "location": "",
+            "years": "",
+            "description": []
+          },
+          {
+            "id": 2,
+            "title": "Delivered4+production-readyprojectsintegratingRESTAPIs,",
+            "company": "",
+            "location": "",
+            "years": "",
+            "description": []
+          },
+          {
+            "id": 3,
+            "title": "NLPpipelines,RAGarchitectures,andDevOpsautomation.",
+            "company": "",
+            "location": "",
+            "years": "",
+            "description": []
+          },
+          {
+            "id": 4,
+            "title": "algorithms,OOP,DBMS,andsystemdesignprinciples.",
+            "company": "",
+            "location": "",
+            "years": "",
+            "description": []
+          }
+        ],
+        "education": [],
+        "personalProjects": [
+          {
+            "id": 1,
+            "name": "NLPpipelines,RAGarchitectures,andDevOpsautomation.",
+            "role": "",
+            "years": "",
+            "github": "",
+            "website": "",
+            "description": []
+          },
+          {
+            "id": 2,
+            "name": "ExperiencedinAgile/Scrumworkflows;strongfoundationindatastructures,",
+            "role": "",
+            "years": "",
+            "github": "",
+            "website": "",
+            "description": []
+          },
+          {
+            "id": 3,
+            "name": "algorithms,OOP,DBMS,andsystemdesignprinciples.",
+            "role": "",
+            "years": "",
+            "github": "",
+            "website": "",
+            "description": []
+          }
+        ],
+        "additional": {
+          "technicalSkills": [
+            "Languages: Java",
+            "Python",
+            "C++",
+            "SQL",
+            "JavaScript",
+            "TypeScript",
+            "HTML",
+            "CSS",
+            "ShellScripting",
+            "Web & Backend: React.js",
+            "Next.js",
+            "Node.js",
+            "Express.js",
+            "Django",
+            "FastAPI",
+            "RESTAPIs",
+            "TailwindCSS",
+            "LangServe",
+            "Databases: PostgreSQL",
+            "MongoDB",
+            "SQLite",
+            "PrismaORM",
+            "Supabase",
+            "ChromaDB(VectorDB)",
+            "AI",
+            "ML:TensorFlow",
+            "PyTorch",
+            "Scikit-learn",
+            "Pandas",
+            "NumPy",
+            "NLP",
+            "LangChain",
+            "LangGraph",
+            "RAG",
+            "LLM",
+            "PromptEngineering",
+            "Cloud & DevOps: Docker",
+            "Kubernetes",
+            "Helm",
+            "Jenkins",
+            "CI",
+            "CD",
+            "AWS",
+            "Vercel",
+            "Railway",
+            "Stripe",
+            "Auth.js",
+            "CS Fundamentals: DataStructures&Algorithms",
+            "SystemDesign",
+            "OOP",
+            "DBMS",
+            "OperatingSystems",
+            "ComputerNetworks",
+            "Methodologies: Agile",
+            "Scrum",
+            "SprintPlanning",
+            "CodeReview",
+            "TechnicalDocumentation",
+            "Tools: Git",
+            "GitHub",
+            "Postman",
+            "JupyterNotebook",
+            "VSCode"
+          ],
+          "languages": [],
+          "certificationsTraining": [
+            "IBM AI & Cloud Internship",
+            "(4 weeks)\u2013EdunetFoundation",
+            "Aug 2025 [link] Google Data Analytics\u2013Coursera",
+            "July 2024 [link]",
+            "AI Fundamentals\u2013IBMSkillsBuild",
+            "June 2024 [link] Google AI",
+            "Essentials\u2013Coursera July 2024 [link]"
+          ],
+          "awards": []
+        }
+      },
+      "title": null,
+      "cover_letter": null,
+      "outreach_message": null,
+      "job_id": "7e10b895-67d3-4a89-ada8-8c87091793f1"
+    },
+    "1dcdfde5-b49b-40e7-85f6-d2de11add9ae": {
+      "resume_id": "1dcdfde5-b49b-40e7-85f6-d2de11add9ae",
+      "filename": "dhwaniVyas_resume_myntra.pdf",
+      "is_master": false,
+      "parent_id": null,
+      "processing_status": "ready",
+      "created_at": "2026-04-11T17:09:01.540337+00:00",
+      "updated_at": "2026-04-11T17:09:01.540337+00:00",
+      "raw_text": "Dhwani\nVyas\n(cid:131)+917621092186 | *Gandhinagar,Gujarat\n| #dhwani.vyas05@gmail.com\n| (cid:239)LinkedIn | \u00a7GitHub\n| (cid:128)Portfolio | \u2014LeetCode\nSummary\nComputerSciencestudent(CGPA:9.63,expectedgraduation2027)withstrongexpertiseinfull-stackdevelopment,backendsystemdesign,\nandML-drivenapplications.\nProficientinJava,Python,TypeScript,Django,FastAPI,andReact.js;hands-onexperiencewithDocker,\nKubernetes,CI/CDpipelines,andclouddeploymentonAWSandVercel.\nDelivered4+production-readyprojectsintegratingRESTAPIs,\nNLPpipelines,RAGarchitectures,andDevOpsautomation.\nExperiencedinAgile/Scrumworkflows;strongfoundationindatastructures,\nalgorithms,OOP,DBMS,andsystemdesignprinciples.\nEducation\nPandit Deendayal Energy\nUniversity\nJuly 2023\n\u2013 May 2027 (Expected)\nB.Tech in Computer Science\nEngineering | CGPA: 9.63\nProjects\nCI/CD Pipeline to Kubernetes\nwith Helm | Jenkins, Docker,\nKubernetes, Helm, DevOps, Shell\nScripting \u00a7 2026\n\u2022 Architectedanend-to-end\nCI/CD pipelineusingJenkins\nmulti-stage pipelines,automatingbuild,test,containerization,and\nrollbackworkflowsacross3+\nenvironments;reducedmanualdeploymentoverheadby\n70%.\nContainerizedmicroserviceswithDockerandorchestrateddeploymentsonKubernetesviaHelm\ncharts;wroteshellautomation\n\u2022 scriptsforimagepublishing,chartpackaging,andversioned\nrelease\nmanagement.\n\u2022 Integratedautomated\nhealth checks and smoke testinggatesintothepipelinefollowingAgile\nsprintpractices,reducing\npost-releasedefectrate;configuredenvironment-specificHelm\nvaluesforstagingandproduction.\nAI Resume Analyzer &\nJob Portal | Django, Python, PostgreSQL,\nREST APIs, NLP, Machine\nLearning 2 \u00a7 2025\n\u2022 Builtaproduction-deployedfull-stackjobportalwithDjangoRESTFrameworksupporting50+concurrentusers,withresume\nupload,NLP-based resume\nscoring,andintelligentcandidate-job\nmatchingacross3userroles(Admin,Recruiter,Candidate).\n\u2022 EngineeredNLP pipelinesforkeywordextraction,skillgapanalysis,andjobrecommendation;implementedRBAC\nauthentication\nwithJWT,securingAPIendpointsandenforcingrole-leveldataaccesscontrol.\n\u2022 OptimizedPostgreSQLqueryperformanceusingindexingandqueryplanning,achievingsub-200ms\nAPI response times;deployed\nonRailwaywithenvironment-basedconfigurationmanagementforscalablemulti-useraccess.\nAI Email Automation\nSystem | Python, RAG, LangGraph,\nLangChain, FastAPI, ChromaDB, Gmail\nAPI \u00a7 2026\n\u2022 Developedabackend\nautomation systemintegratingGmail\nAPIforreal-timeemailingestion;designedLangGraph\nstateful\nagentic workflowsformulti-classintentclassificationanddynamicmulti-steptaskorchestrationacross5+\nintent categories.\n\u2022 ImplementedaRetrieval-Augmented\nGeneration (RAG)pipelineusingChromaDBasavectorstoreforcontext-aware,\nsemanticallygroundedresponsegenerationacrosshigh-volumeemailthreads.\nDeployedscalableREST\nAPIswithFastAPIandLangServe;optimizeddataingestionpipelinesachievingsub-second\nvector\n\u2022\nretrievalandLLM-poweredautomatedreplygenerationwith90%+\nclassification accuracy.\nPayZen \u2013 Shared Expense\n& Payments Platform | Next.js,\nTypeScript, Prisma, PostgreSQL,\nStripe, Auth.js 2 \u00a7 2026\nBuiltafull-stack fintech\nplatformhandlingend-to-endtransactionflows\u2014walletprovisioning,groupledgers,equal-splitexpense\n\u2022\ntracking,andreal-time\nsettlement suggestions\u2014backedbyanormalizedPostgreSQL\nrelational\nschemaspanning4+entity\ntypes;serving 100+\nactive users.\n\u2022 IntegratedStripe Checkout\nAPIforsecurewallettop-upsandpeer-to-peerpaymentexecution;implementedmulti-provider\nauthentication(email/password+GoogleOAuth)withAuth.jsandsecuresessionmanagement.\n\u2022 DesignedamodularTypeScriptcodebasewithPrisma\nORMfortype-saferelationaldataaccess;deployedonVercelwithNext.js\nApp Routerforoptimizedserver-siderendering,achievingfastpageloadsandSEO-friendlyproductcatalogstructure.\nSkills\nLanguages: Java,Python,C++,SQL,JavaScript,TypeScript,HTML,CSS,ShellScripting\nWeb & Backend: React.js,Next.js,Node.js,Express.js,Django,FastAPI,RESTAPIs,TailwindCSS,LangServe\nDatabases: PostgreSQL,MongoDB,SQLite,PrismaORM,Supabase,ChromaDB(VectorDB)\nAI/ML:TensorFlow,PyTorch,Scikit-learn,Pandas,NumPy,NLP,LangChain,LangGraph,RAG,LLM,PromptEngineering\nCloud & DevOps: Docker,Kubernetes,Helm,Jenkins,CI/CD,AWS,Vercel,Railway,Stripe,Auth.js\nCS Fundamentals: DataStructures&Algorithms,SystemDesign,OOP,DBMS,OperatingSystems,ComputerNetworks\nMethodologies: Agile,Scrum,SprintPlanning,CodeReview,TechnicalDocumentation\nTools: Git,GitHub,Postman,JupyterNotebook,VSCode\nCertifications\nIBM AI & Cloud Internship\n(4 weeks)\u2013EdunetFoundation\nAug 2025 [link] Google Data Analytics\u2013Coursera\nJuly 2024 [link]\nAI Fundamentals\u2013IBMSkillsBuild\nJune 2024 [link] Google AI\nEssentials\u2013Coursera July 2024 [link]\nCisco Networking Basics\nAug 2025 [link]\nAchievements\n\u2022 1st Runner-up,Breach\u201925Hackathon(48-hour)atPDEU,Gandhinagar;Top\n50 teamsoutof500+,LevelSupermindHackathon\u201925,\nMumbai.\n\u2022 Conducteda1.5-hour technical\nworkshop on Python Librariesfor100+\nstudents,organizedbyGeeksForGeeksatPDEU.\n\u2022 LeetCode: 500+problemssolvedacrossarrays,trees,graphs,dynamicprogramming,andbinarysearch.",
+      "processed_resume": {
+        "personalInfo": {
+          "name": "",
+          "title": "",
+          "email": "dhwani.vyas05@gmail.com",
+          "phone": "+917621092186",
+          "location": "",
+          "website": "",
+          "linkedin": "",
+          "github": ""
+        },
+        "summary": "Dhwani Vyas (cid:131)+917621092186 | *Gandhinagar,Gujarat | #dhwani.vyas05@gmail.com",
+        "workExperience": [
+          {
+            "id": 1,
+            "title": "Kubernetes,CI/CDpipelines,andclouddeploymentonAWSandVercel.",
+            "company": "",
+            "location": "",
+            "years": "",
+            "description": []
+          },
+          {
+            "id": 2,
+            "title": "Delivered4+production-readyprojectsintegratingRESTAPIs,",
+            "company": "",
+            "location": "",
+            "years": "",
+            "description": []
+          },
+          {
+            "id": 3,
+            "title": "NLPpipelines,RAGarchitectures,andDevOpsautomation.",
+            "company": "",
+            "location": "",
+            "years": "",
+            "description": []
+          },
+          {
+            "id": 4,
+            "title": "algorithms,OOP,DBMS,andsystemdesignprinciples.",
+            "company": "",
+            "location": "",
+            "years": "",
+            "description": []
+          }
+        ],
+        "education": [],
+        "personalProjects": [
+          {
+            "id": 1,
+            "name": "NLPpipelines,RAGarchitectures,andDevOpsautomation.",
+            "role": "",
+            "years": "",
+            "github": "",
+            "website": "",
+            "description": []
+          },
+          {
+            "id": 2,
+            "name": "ExperiencedinAgile/Scrumworkflows;strongfoundationindatastructures,",
+            "role": "",
+            "years": "",
+            "github": "",
+            "website": "",
+            "description": []
+          },
+          {
+            "id": 3,
+            "name": "algorithms,OOP,DBMS,andsystemdesignprinciples.",
+            "role": "",
+            "years": "",
+            "github": "",
+            "website": "",
+            "description": []
+          }
+        ],
+        "additional": {
+          "technicalSkills": [
+            "Languages: Java",
+            "Python",
+            "C++",
+            "SQL",
+            "JavaScript",
+            "TypeScript",
+            "HTML",
+            "CSS",
+            "ShellScripting",
+            "Web & Backend: React.js",
+            "Next.js",
+            "Node.js",
+            "Express.js",
+            "Django",
+            "FastAPI",
+            "RESTAPIs",
+            "TailwindCSS",
+            "LangServe",
+            "Databases: PostgreSQL",
+            "MongoDB",
+            "SQLite",
+            "PrismaORM",
+            "Supabase",
+            "ChromaDB(VectorDB)",
+            "AI",
+            "ML:TensorFlow",
+            "PyTorch",
+            "Scikit-learn",
+            "Pandas",
+            "NumPy",
+            "NLP",
+            "LangChain",
+            "LangGraph",
+            "RAG",
+            "LLM",
+            "PromptEngineering",
+            "Cloud & DevOps: Docker",
+            "Kubernetes",
+            "Helm",
+            "Jenkins",
+            "CI",
+            "CD",
+            "AWS",
+            "Vercel",
+            "Railway",
+            "Stripe",
+            "Auth.js",
+            "CS Fundamentals: DataStructures&Algorithms",
+            "SystemDesign",
+            "OOP",
+            "DBMS",
+            "OperatingSystems",
+            "ComputerNetworks",
+            "Methodologies: Agile",
+            "Scrum",
+            "SprintPlanning",
+            "CodeReview",
+            "TechnicalDocumentation",
+            "Tools: Git",
+            "GitHub",
+            "Postman",
+            "JupyterNotebook",
+            "VSCode"
+          ],
+          "languages": [],
+          "certificationsTraining": [
+            "IBM AI & Cloud Internship",
+            "(4 weeks)\u2013EdunetFoundation",
+            "Aug 2025 [link] Google Data Analytics\u2013Coursera",
+            "July 2024 [link]",
+            "AI Fundamentals\u2013IBMSkillsBuild",
+            "June 2024 [link] Google AI",
+            "Essentials\u2013Coursera July 2024 [link]"
+          ],
+          "awards": []
+        }
+      },
+      "title": null,
+      "cover_letter": null,
+      "outreach_message": null,
+      "job_id": null
+    },
+    "b0620869-3c59-4b41-9779-b30c000314ab": {
+      "resume_id": "b0620869-3c59-4b41-9779-b30c000314ab",
+      "filename": "dhwaniVyas_resume_myntra.pdf",
+      "is_master": false,
+      "parent_id": null,
+      "processing_status": "ready",
+      "created_at": "2026-04-11T18:07:04.574019+00:00",
+      "updated_at": "2026-04-11T18:07:04.574019+00:00",
+      "raw_text": "Dhwani\nVyas\n(cid:131)+917621092186 | *Gandhinagar,Gujarat\n| #dhwani.vyas05@gmail.com\n| (cid:239)LinkedIn | \u00a7GitHub\n| (cid:128)Portfolio | \u2014LeetCode\nSummary\nComputerSciencestudent(CGPA:9.63,expectedgraduation2027)withstrongexpertiseinfull-stackdevelopment,backendsystemdesign,\nandML-drivenapplications.\nProficientinJava,Python,TypeScript,Django,FastAPI,andReact.js;hands-onexperiencewithDocker,\nKubernetes,CI/CDpipelines,andclouddeploymentonAWSandVercel.\nDelivered4+production-readyprojectsintegratingRESTAPIs,\nNLPpipelines,RAGarchitectures,andDevOpsautomation.\nExperiencedinAgile/Scrumworkflows;strongfoundationindatastructures,\nalgorithms,OOP,DBMS,andsystemdesignprinciples.\nEducation\nPandit Deendayal Energy\nUniversity\nJuly 2023\n\u2013 May 2027 (Expected)\nB.Tech in Computer Science\nEngineering | CGPA: 9.63\nProjects\nCI/CD Pipeline to Kubernetes\nwith Helm | Jenkins, Docker,\nKubernetes, Helm, DevOps, Shell\nScripting \u00a7 2026\n\u2022 Architectedanend-to-end\nCI/CD pipelineusingJenkins\nmulti-stage pipelines,automatingbuild,test,containerization,and\nrollbackworkflowsacross3+\nenvironments;reducedmanualdeploymentoverheadby\n70%.\nContainerizedmicroserviceswithDockerandorchestrateddeploymentsonKubernetesviaHelm\ncharts;wroteshellautomation\n\u2022 scriptsforimagepublishing,chartpackaging,andversioned\nrelease\nmanagement.\n\u2022 Integratedautomated\nhealth checks and smoke testinggatesintothepipelinefollowingAgile\nsprintpractices,reducing\npost-releasedefectrate;configuredenvironment-specificHelm\nvaluesforstagingandproduction.\nAI Resume Analyzer &\nJob Portal | Django, Python, PostgreSQL,\nREST APIs, NLP, Machine\nLearning 2 \u00a7 2025\n\u2022 Builtaproduction-deployedfull-stackjobportalwithDjangoRESTFrameworksupporting50+concurrentusers,withresume\nupload,NLP-based resume\nscoring,andintelligentcandidate-job\nmatchingacross3userroles(Admin,Recruiter,Candidate).\n\u2022 EngineeredNLP pipelinesforkeywordextraction,skillgapanalysis,andjobrecommendation;implementedRBAC\nauthentication\nwithJWT,securingAPIendpointsandenforcingrole-leveldataaccesscontrol.\n\u2022 OptimizedPostgreSQLqueryperformanceusingindexingandqueryplanning,achievingsub-200ms\nAPI response times;deployed\nonRailwaywithenvironment-basedconfigurationmanagementforscalablemulti-useraccess.\nAI Email Automation\nSystem | Python, RAG, LangGraph,\nLangChain, FastAPI, ChromaDB, Gmail\nAPI \u00a7 2026\n\u2022 Developedabackend\nautomation systemintegratingGmail\nAPIforreal-timeemailingestion;designedLangGraph\nstateful\nagentic workflowsformulti-classintentclassificationanddynamicmulti-steptaskorchestrationacross5+\nintent categories.\n\u2022 ImplementedaRetrieval-Augmented\nGeneration (RAG)pipelineusingChromaDBasavectorstoreforcontext-aware,\nsemanticallygroundedresponsegenerationacrosshigh-volumeemailthreads.\nDeployedscalableREST\nAPIswithFastAPIandLangServe;optimizeddataingestionpipelinesachievingsub-second\nvector\n\u2022\nretrievalandLLM-poweredautomatedreplygenerationwith90%+\nclassification accuracy.\nPayZen \u2013 Shared Expense\n& Payments Platform | Next.js,\nTypeScript, Prisma, PostgreSQL,\nStripe, Auth.js 2 \u00a7 2026\nBuiltafull-stack fintech\nplatformhandlingend-to-endtransactionflows\u2014walletprovisioning,groupledgers,equal-splitexpense\n\u2022\ntracking,andreal-time\nsettlement suggestions\u2014backedbyanormalizedPostgreSQL\nrelational\nschemaspanning4+entity\ntypes;serving 100+\nactive users.\n\u2022 IntegratedStripe Checkout\nAPIforsecurewallettop-upsandpeer-to-peerpaymentexecution;implementedmulti-provider\nauthentication(email/password+GoogleOAuth)withAuth.jsandsecuresessionmanagement.\n\u2022 DesignedamodularTypeScriptcodebasewithPrisma\nORMfortype-saferelationaldataaccess;deployedonVercelwithNext.js\nApp Routerforoptimizedserver-siderendering,achievingfastpageloadsandSEO-friendlyproductcatalogstructure.\nSkills\nLanguages: Java,Python,C++,SQL,JavaScript,TypeScript,HTML,CSS,ShellScripting\nWeb & Backend: React.js,Next.js,Node.js,Express.js,Django,FastAPI,RESTAPIs,TailwindCSS,LangServe\nDatabases: PostgreSQL,MongoDB,SQLite,PrismaORM,Supabase,ChromaDB(VectorDB)\nAI/ML:TensorFlow,PyTorch,Scikit-learn,Pandas,NumPy,NLP,LangChain,LangGraph,RAG,LLM,PromptEngineering\nCloud & DevOps: Docker,Kubernetes,Helm,Jenkins,CI/CD,AWS,Vercel,Railway,Stripe,Auth.js\nCS Fundamentals: DataStructures&Algorithms,SystemDesign,OOP,DBMS,OperatingSystems,ComputerNetworks\nMethodologies: Agile,Scrum,SprintPlanning,CodeReview,TechnicalDocumentation\nTools: Git,GitHub,Postman,JupyterNotebook,VSCode\nCertifications\nIBM AI & Cloud Internship\n(4 weeks)\u2013EdunetFoundation\nAug 2025 [link] Google Data Analytics\u2013Coursera\nJuly 2024 [link]\nAI Fundamentals\u2013IBMSkillsBuild\nJune 2024 [link] Google AI\nEssentials\u2013Coursera July 2024 [link]\nCisco Networking Basics\nAug 2025 [link]\nAchievements\n\u2022 1st Runner-up,Breach\u201925Hackathon(48-hour)atPDEU,Gandhinagar;Top\n50 teamsoutof500+,LevelSupermindHackathon\u201925,\nMumbai.\n\u2022 Conducteda1.5-hour technical\nworkshop on Python Librariesfor100+\nstudents,organizedbyGeeksForGeeksatPDEU.\n\u2022 LeetCode: 500+problemssolvedacrossarrays,trees,graphs,dynamicprogramming,andbinarysearch.",
+      "processed_resume": {
+        "personalInfo": {
+          "name": "Dhwani",
+          "title": "",
+          "email": "dhwani.vyas05@gmail.com",
+          "phone": "+917621092186",
+          "location": "",
+          "website": "",
+          "linkedin": "",
+          "github": ""
+        },
+        "summary": "Dhwani Vyas (cid:131)+917621092186 | *Gandhinagar,Gujarat | #dhwani.vyas05@gmail.com",
+        "workExperience": [
+          {
+            "id": 1,
+            "title": "Kubernetes,CI/CDpipelines,andclouddeploymentonAWSandVercel.",
+            "company": "",
+            "location": "",
+            "years": "",
+            "description": []
+          },
+          {
+            "id": 2,
+            "title": "Delivered4+production-readyprojectsintegratingRESTAPIs,",
+            "company": "",
+            "location": "",
+            "years": "",
+            "description": []
+          },
+          {
+            "id": 3,
+            "title": "NLPpipelines,RAGarchitectures,andDevOpsautomation.",
+            "company": "",
+            "location": "",
+            "years": "",
+            "description": []
+          },
+          {
+            "id": 4,
+            "title": "algorithms,OOP,DBMS,andsystemdesignprinciples.",
+            "company": "",
+            "location": "",
+            "years": "",
+            "description": []
+          }
+        ],
+        "education": [],
+        "personalProjects": [
+          {
+            "id": 1,
+            "name": "NLPpipelines,RAGarchitectures,andDevOpsautomation.",
+            "role": "",
+            "years": "",
+            "github": "",
+            "website": "",
+            "description": []
+          },
+          {
+            "id": 2,
+            "name": "ExperiencedinAgile/Scrumworkflows;strongfoundationindatastructures,",
+            "role": "",
+            "years": "",
+            "github": "",
+            "website": "",
+            "description": []
+          },
+          {
+            "id": 3,
+            "name": "algorithms,OOP,DBMS,andsystemdesignprinciples.",
+            "role": "",
+            "years": "",
+            "github": "",
+            "website": "",
+            "description": []
+          }
+        ],
+        "additional": {
+          "technicalSkills": [
+            "Languages: Java",
+            "Python",
+            "C++",
+            "SQL",
+            "JavaScript",
+            "TypeScript",
+            "HTML",
+            "CSS",
+            "ShellScripting",
+            "Web & Backend: React.js",
+            "Next.js",
+            "Node.js",
+            "Express.js",
+            "Django",
+            "FastAPI",
+            "RESTAPIs",
+            "TailwindCSS",
+            "LangServe",
+            "Databases: PostgreSQL",
+            "MongoDB",
+            "SQLite",
+            "PrismaORM",
+            "Supabase",
+            "ChromaDB(VectorDB)",
+            "AI",
+            "ML:TensorFlow",
+            "PyTorch",
+            "Scikit-learn",
+            "Pandas",
+            "NumPy",
+            "NLP",
+            "LangChain",
+            "LangGraph",
+            "RAG",
+            "LLM",
+            "PromptEngineering",
+            "Cloud & DevOps: Docker",
+            "Kubernetes",
+            "Helm",
+            "Jenkins",
+            "CI",
+            "CD",
+            "AWS",
+            "Vercel",
+            "Railway",
+            "Stripe",
+            "Auth.js",
+            "CS Fundamentals: DataStructures&Algorithms",
+            "SystemDesign",
+            "OOP",
+            "DBMS",
+            "OperatingSystems",
+            "ComputerNetworks",
+            "Methodologies: Agile",
+            "Scrum",
+            "SprintPlanning",
+            "CodeReview",
+            "TechnicalDocumentation",
+            "Tools: Git",
+            "GitHub",
+            "Postman",
+            "JupyterNotebook",
+            "VSCode"
+          ],
+          "languages": [],
+          "certificationsTraining": [
+            "IBM AI & Cloud Internship",
+            "(4 weeks)\u2013EdunetFoundation",
+            "Aug 2025 [link] Google Data Analytics\u2013Coursera",
+            "July 2024 [link]",
+            "AI Fundamentals\u2013IBMSkillsBuild",
+            "June 2024 [link] Google AI",
+            "Essentials\u2013Coursera July 2024 [link]"
+          ],
+          "awards": []
+        }
+      },
+      "title": "Dhwani",
+      "cover_letter": null,
+      "outreach_message": null,
+      "job_id": null
+    }
+  },
+  "jobs": {
+    "7e10b895-67d3-4a89-ada8-8c87091793f1": {
+      "job_id": "7e10b895-67d3-4a89-ada8-8c87091793f1",
+      "content": "Need Python FastAPI SQL engineer",
+      "resume_id": "d5c981f1-542a-4114-936b-75fbb1137db6",
+      "created_at": "2026-04-11T14:54:57.606780+00:00"
+    }
+  },
+  "improvements": {
+    "c8db5fc0-bc66-4a7e-9f9d-2c84eb0f6bd9": []
+  },
+  "llm_config": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "api_key": "",
+    "api_base": null
+  },
+  "features": {
+    "enable_cover_letter": true,
+    "enable_outreach_message": true
+  },
+  "prompt_config": {
+    "default_prompt_id": "keywords",
+    "prompt_options": [
+      {
+        "id": "nudge",
+        "label": "Nudge",
+        "description": "Subtle improvements"
+      },
+      {
+        "id": "keywords",
+        "label": "Keywords",
+        "description": "Keyword-optimized"
+      },
+      {
+        "id": "full",
+        "label": "Full Rewrite",
+        "description": "Rewrite sections deeply"
+      }
+    ]
+  },
+  "api_keys": {
+    "openai": "",
+    "anthropic": "",
+    "google": "",
+    "openrouter": "",
+    "deepseek": ""
+  },
+  "language": {
+    "ui_language": "en",
+    "content_language": "en",
+    "supported_languages": [
+      "en",
+      "es",
+      "zh",
+      "ja",
+      "pt"
+    ]
+  }
+}

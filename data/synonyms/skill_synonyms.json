@@ -1,0 +1,11 @@
+{
+  "py": "Python",
+  "python3": "Python",
+  "k8s": "Kubernetes",
+  "kube": "Kubernetes",
+  "js": "JavaScript",
+  "ts": "TypeScript",
+  "postgres": "PostgreSQL",
+  "tf": "TensorFlow",
+  "cv": "Computer Vision"
+}
