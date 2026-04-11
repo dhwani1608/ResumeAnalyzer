@@ -33,7 +33,9 @@ DATABASE_URL=postgresql+asyncpg://... (Supabase connection string)
 OPENAI_API_KEY=your_key
 ```
 
-### 2. Run with Docker (Recommended)
+### 2. Run with Docker (Recommended for Render)
+Your backend is pre-configured with a `Dockerfile`. Just point **Render** to your repo and it will handle the environment setup automatically.
+
 ```bash
 docker-compose up --build
 ```
