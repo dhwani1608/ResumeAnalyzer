@@ -3,8 +3,6 @@ from __future__ import annotations
 import os
 from typing import Iterable
 
-from sentence_transformers import SentenceTransformer
-
 from api.models.resume import JobDescription, MatchResult, NormalizedProfile
 
 
@@ -19,8 +17,9 @@ class MatchingAgent:
     def __init__(self):
         model_name = os.getenv("MATCH_MODEL", "sentence-transformers/all-MiniLM-L6-v2")
         try:
+            from sentence_transformers import SentenceTransformer
             self.model = SentenceTransformer(model_name)
-        except Exception:
+        except (ImportError, Exception):
             self.model = None
         self.threshold = float(os.getenv("MATCH_THRESHOLD", "0.65"))
         self.learning_map = {
