@@ -11,7 +11,10 @@ class VectorStore:
         self.collection = None
         try:
             import chromadb
-            from chromadb.utils.embedding_functions import SentenceTransformerEmbeddingFunction
+            from chromadb.utils.embedding_functions import (
+                SentenceTransformerEmbeddingFunction,
+                GoogleGenerativeAiEmbeddingFunction
+            )
             
             host = os.getenv("CHROMADB_HOST")
             port = int(os.getenv("CHROMADB_PORT", "8000"))
@@ -25,8 +28,17 @@ class VectorStore:
                 logger.info("vector_store_using_local_persistence", path=persist_directory)
                 self.client = chromadb.PersistentClient(path=persist_directory)
 
-            embedding_model = os.getenv("EMBEDDING_MODEL", "sentence-transformers/all-MiniLM-L6-v2")
-            self.embedding = SentenceTransformerEmbeddingFunction(model_name=embedding_model)
+            google_key = os.getenv("GOOGLE_API_KEY")
+            if google_key:
+                logger.info("vector_store_using_gemini_embeddings")
+                self.embedding = GoogleGenerativeAiEmbeddingFunction(
+                    api_key=google_key,
+                    model_name="models/text-embedding-004"
+                )
+            else:
+                embedding_model = os.getenv("EMBEDDING_MODEL", "sentence-transformers/all-MiniLM-L6-v2")
+                logger.info("vector_store_using_local_embeddings", model=embedding_model)
+                self.embedding = SentenceTransformerEmbeddingFunction(model_name=embedding_model)
             
             self.collection = self.client.get_or_create_collection(
                 name=collection_name,

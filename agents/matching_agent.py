@@ -15,12 +15,23 @@ def _cosine(a, b) -> float:
 
 class MatchingAgent:
     def __init__(self):
-        model_name = os.getenv("MATCH_MODEL", "sentence-transformers/all-MiniLM-L6-v2")
-        try:
-            from sentence_transformers import SentenceTransformer
-            self.model = SentenceTransformer(model_name)
-        except (ImportError, Exception):
+        self.google_key = os.getenv("GOOGLE_API_KEY")
+        if self.google_key:
             self.model = None
+            try:
+                import google.generativeai as genai
+                genai.configure(api_key=self.google_key)
+                self.gemini_client = genai
+            except (ImportError, Exception):
+                self.gemini_client = None
+        else:
+            self.gemini_client = None
+            model_name = os.getenv("MATCH_MODEL", "sentence-transformers/all-MiniLM-L6-v2")
+            try:
+                from sentence_transformers import SentenceTransformer
+                self.model = SentenceTransformer(model_name)
+            except (ImportError, Exception):
+                self.model = None
         self.threshold = float(os.getenv("MATCH_THRESHOLD", "0.65"))
         self.learning_map = {
             "Kubernetes": "Learn Kubernetes basics, then deploy a microservice on EKS/GKE.",
@@ -32,18 +43,41 @@ class MatchingAgent:
         t = [x for x in targets if x]
         if not t:
             return 0.0
-        if self.model is None:
-            src_tokens = set(source.lower().split())
-            score = 0.0
-            for item in t:
-                tgt_tokens = set(item.lower().split())
-                overlap = len(src_tokens & tgt_tokens)
-                union = len(src_tokens | tgt_tokens) or 1
-                score = max(score, overlap / union)
-            return score
-        embeds = self.model.encode([source] + t)
-        src = embeds[0]
-        return max(_cosine(src, e) for e in embeds[1:])
+            
+        # Cloud-based similarity (Gemini)
+        if self.google_key and self.gemini_client:
+            try:
+                # Batch embed all at once
+                items = [source] + t
+                result = self.gemini_client.embed_content(
+                    model="models/text-embedding-004",
+                    content=items,
+                    task_type="similarity"
+                )
+                embeds = result['embeddings']
+                import numpy as np
+                src = np.array(embeds[0])
+                others = [np.array(e) for e in embeds[1:]]
+                return max(_cosine(src, e) for e in others)
+            except Exception as e:
+                # Fallback to token overlap if API fails
+                pass
+        
+        # Local model similarity
+        if self.model is not None:
+            embeds = self.model.encode([source] + t)
+            src = embeds[0]
+            return max(_cosine(src, e) for e in embeds[1:])
+            
+        # Token overlap fallback
+        src_tokens = set(source.lower().split())
+        score = 0.0
+        for item in t:
+            tgt_tokens = set(item.lower().split())
+            overlap = len(src_tokens & tgt_tokens)
+            union = len(src_tokens | tgt_tokens) or 1
+            score = max(score, overlap / union)
+        return score
 
     async def match(self, candidate: NormalizedProfile, job: JobDescription) -> MatchResult:
         cand_skills = [s.skill.canonical for s in candidate.normalized_skills] + candidate.implied_skills

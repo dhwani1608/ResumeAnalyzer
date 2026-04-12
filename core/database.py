@@ -158,6 +158,15 @@ class _DummySession:
     async def rollback(self):
         return None
 
+    def add(self, obj):
+        pass
+
+    async def flush(self):
+        pass
+
+    async def refresh(self, obj):
+        pass
+
     async def close(self):
         return None
 

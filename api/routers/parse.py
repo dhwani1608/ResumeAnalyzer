@@ -3,11 +3,12 @@ from __future__ import annotations
 import hashlib
 import json
 from fastapi import APIRouter, Depends, File, Form, HTTPException, Request, UploadFile
-from sqlalchemy import insert
+from sqlalchemy import insert, select
 
 from api.middleware.auth import api_key_auth
 from api.routers.legacy import STORE, _extract_resume_data
-from core.database import Candidate, NormalizedProfileModel, ParsedResumeModel, AsyncSessionLocal
+from api.utils.zipper import extract_resumes_from_zip
+from core.database import Candidate, NormalizedProfileModel, ParsedResumeModel, MatchResultModel, Job, AsyncSessionLocal
 from core.job_queue import JobQueue
 
 
@@ -81,3 +82,75 @@ async def parse_batch(request: Request, files: list[UploadFile] = File(...), _: 
 
     job_id = await queue.enqueue({"items": serialized})
     return {"request_id": request.state.request_id, "job_id": job_id, "status": "queued"}
+
+
+@router.post("/batch-zip")
+async def parse_zip(request: Request, file: UploadFile = File(...), job_id: str = Form(None), _: str = Depends(api_key_auth)):
+    zip_bytes = await file.read()
+    extracted = extract_resumes_from_zip(zip_bytes)
+    
+    if not extracted:
+        raise HTTPException(status_code=400, detail={"error": "empty_zip", "detail": "No valid resumes found in ZIP", "field": "file"})
+    
+    orchestrator = request.app.state.orchestrator
+    matcher = request.app.state.matcher
+    results = []
+    
+    # Optional Job Description for ranking
+    job_description = None
+    if job_id:
+        async with AsyncSessionLocal() as session:
+            from core.database import Job
+            res = await session.execute(select(Job).where(Job.id == job_id))
+            job_row = res.scalar_one_or_none()
+            if job_row:
+                from api.models.resume import JobDescription
+                job_description = JobDescription(description=job_row.description)
+
+    for filename, raw_bytes in extracted:
+        try:
+            state = await orchestrator.run(raw_file=raw_bytes, file_type=filename.split(".")[-1])
+            parsed = state.get("parsed_resume")
+            profile = state.get("normalized_profile")
+
+            if parsed:
+                file_hash = hashlib.sha256(raw_bytes).hexdigest()
+                async with AsyncSessionLocal() as session:
+                    await session.execute(insert(Candidate).values(id=parsed.candidate_id, name=parsed.name, email=parsed.email, raw_text=parsed.raw_text, file_hash=file_hash))
+                    await session.execute(insert(ParsedResumeModel).values(candidate_id=parsed.candidate_id, parsed_json=parsed.model_dump()))
+                    if profile:
+                        await session.execute(insert(NormalizedProfileModel).values(candidate_id=parsed.candidate_id, skills_json=profile.model_dump(), implied_skills_json={"implied": profile.implied_skills}))
+                    await session.commit()
+                
+                match_score = 0
+                if job_description and profile:
+                    match_result = await matcher.match(profile, job_description)
+                    match_score = match_result.score
+                    # Store match result
+                    async with AsyncSessionLocal() as session:
+                        await session.execute(insert(MatchResultModel).values(
+                            candidate_id=parsed.candidate_id,
+                            job_description_hash=hashlib.sha256(job_description.description.encode("utf-8")).hexdigest(),
+                            score=match_score,
+                            matched_skills=match_result.matched_skills,
+                            missing_skills=match_result.missing_skills
+                        ))
+                        await session.commit()
+
+                results.append({
+                    "filename": filename,
+                    "candidate_id": parsed.candidate_id,
+                    "name": parsed.name,
+                    "score": match_score
+                })
+        except Exception as e:
+            print(f"Error processing {filename}: {e}")
+
+    # Rank by score
+    results.sort(key=lambda x: x["score"], reverse=True)
+    
+    return {
+        "request_id": request.state.request_id,
+        "processed_count": len(results),
+        "results": results
+    }

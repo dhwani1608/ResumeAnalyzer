@@ -20,3 +20,5 @@ python-dotenv
 chromadb
 sentence-transformers
 redis
+google-generativeai
+numpy
