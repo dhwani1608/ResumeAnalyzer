@@ -1,28 +1,43 @@
-from __future__ import annotations
-
 import os
 from typing import Iterable, List
+import structlog
+
+logger = structlog.get_logger(__name__)
 
 
 class VectorStore:
     def __init__(self, collection_name: str = "skills"):
+        self._available = False
+        self.collection = None
         try:
             import chromadb
             from chromadb.utils.embedding_functions import SentenceTransformerEmbeddingFunction
             
-            host = os.getenv("CHROMADB_HOST", "chromadb")
+            host = os.getenv("CHROMADB_HOST")
             port = int(os.getenv("CHROMADB_PORT", "8000"))
-            self.client = chromadb.HttpClient(host=host, port=port)
+            
+            if host:
+                logger.info("vector_store_connecting_http", host=host, port=port)
+                self.client = chromadb.HttpClient(host=host, port=port)
+            else:
+                # Fallback to local persistence if no host provided (convenient for local dev)
+                persist_directory = os.getenv("CHROMA_PERSIST_DIRECTORY", "./data/chroma")
+                logger.info("vector_store_using_local_persistence", path=persist_directory)
+                self.client = chromadb.PersistentClient(path=persist_directory)
+
             embedding_model = os.getenv("EMBEDDING_MODEL", "sentence-transformers/all-MiniLM-L6-v2")
             self.embedding = SentenceTransformerEmbeddingFunction(model_name=embedding_model)
+            
             self.collection = self.client.get_or_create_collection(
                 name=collection_name,
                 embedding_function=self.embedding,
             )
             self._available = True
-        except (ImportError, Exception):
-            self._available = False
-            self.collection = None
+            logger.info("vector_store_initialized", collection=collection_name)
+        except ImportError:
+            logger.warning("vector_store_missing_dependencies")
+        except Exception as e:
+            logger.warning("vector_store_init_failed", error=str(e))
 
     async def upsert_skills(self, skills: Iterable[str]) -> None:
         if not self._available or self.collection is None:

@@ -11,6 +11,7 @@ TalentOS is an AI-powered recruiter intelligence platform that automates the tra
 - **Frontend**: Next.js 14, Tailwind CSS, Framer Motion, Recharts.
 - **Auth**: NextAuth v5 (Beta), bcryptjs, Middleware-guarded routes.
 - **Backend**: FastAPI (Python), spaCy, LiteLLM.
+- **Vector Store**: ChromaDB (Semantic Search).
 - **Database**: Supabase (PostgreSQL).
 - **Infrastructure**: Docker & Docker Compose.
 
@@ -31,6 +32,7 @@ NEXT_PUBLIC_API_URL=http://localhost:8000
 ```env
 DATABASE_URL=postgresql+asyncpg://... (Supabase connection string)
 OPENAI_API_KEY=your_key
+CHROMADB_HOST=chromadb  # Use localhost for local dev without Docker
 ```
 
 ### 2. Run with Docker (Recommended for Render)

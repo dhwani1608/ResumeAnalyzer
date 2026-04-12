@@ -17,3 +17,5 @@ alembic
 litellm
 structlog
 python-dotenv
+chromadb
+sentence-transformers
