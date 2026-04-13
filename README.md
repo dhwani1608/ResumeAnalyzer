@@ -61,4 +61,3 @@ npm run dev
 Run the `supabase_schema.sql` located in the documentation folder in your Supabase SQL Editor to initialize all tables.
 
 ---
-Built with ❤️ by the TalentOS Intelligence Team.
